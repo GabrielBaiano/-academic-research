@@ -6,7 +6,7 @@ import time
 import html
 from html.parser import HTMLParser
 
-API_KEY = "AIzaSyDwg3GS9x3fwfcqEFMbocW8RUpNTWRvU2w"
+API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key={API_KEY}"
 
 class OJSArticleParser(HTMLParser):
@@ -172,9 +172,13 @@ def scrape_issue(issue_url, year):
         classified_batch = call_gemini_batch(batch)
         
         for item in classified_batch:
-            ref_id = item.get("id")
-            if ref_id is not None:
-                refined_items_map[ref_id] = item
+            raw_id = item.get("id")
+            if raw_id is not None:
+                try:
+                    ref_id = int(raw_id)
+                    refined_items_map[ref_id] = item
+                except (ValueError, TypeError):
+                    pass
                 
         # Atraso seguro de 5.5 segundos (INDENTAÇÃO CORRIGIDA - FORA DO LOOP INTERNO!)
         time.sleep(5.5)

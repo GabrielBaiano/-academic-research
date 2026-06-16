@@ -15,8 +15,63 @@ sys.path.append(os.path.dirname(__file__))
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyDwg3GS9x3fwfcqEFMbocW8RUpNTWRvU2w")
+API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key={API_KEY}"
+
+def validate_and_setup_api_key():
+    global API_KEY, GEMINI_URL
+    api_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    
+    # Se a chave estiver vazia, pede ao usuário
+    if not api_key:
+        print("\n[Aviso] Nenhuma chave de API encontrada na variável de ambiente GEMINI_API_KEY.")
+        user_key = input("Por favor, insira uma chave de API do Gemini válida (ou Enter para sair): ").strip()
+        if not user_key:
+            return False
+        api_key = user_key
+    
+    # Test key validity
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key={api_key}"
+    payload = {
+        "contents": [{"parts": [{"text": "Say ok"}]}]
+    }
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST"
+    )
+    
+    try:
+        with urllib.request.urlopen(req, timeout=10) as res:
+            API_KEY = api_key
+            GEMINI_URL = url
+            os.environ["GEMINI_API_KEY"] = api_key
+            return True
+    except Exception as e:
+        print(f"\n[Aviso] A chave de API atual ('{api_key[:6]}...') falhou no teste.")
+        print(f"Erro: {e}")
+        user_key = input("\nPor favor, insira uma chave de API do Gemini válida (ou Enter para sair): ").strip()
+        if not user_key:
+            return False
+            
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key={user_key}"
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"},
+            method="POST"
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=10) as res:
+                API_KEY = user_key
+                GEMINI_URL = url
+                os.environ["GEMINI_API_KEY"] = user_key
+                print("[Sucesso] Chave de API do Gemini validada com sucesso!\n")
+                return True
+        except Exception as err:
+            print(f"[Erro] A chave fornecida também falhou: {err}")
+            return False
 
 # Mapeamento de chaves
 TOOL_KEY = "Ferramenta utilizada"
@@ -244,6 +299,14 @@ Input articles to classify:
                 text = response_data["candidates"][0]["content"]["parts"][0]["text"]
                 return json.loads(text)
         except urllib.error.HTTPError as e:
+            if e.code in [400, 401, 403, 404]:
+                print(f"\n[Gemini] Erro crítico e irrecuperável (HTTP {e.code}): {e.reason}. Abortando tentativas.", flush=True)
+                try:
+                    body = e.read().decode("utf-8")
+                    print(f"Detalhe: {body}", flush=True)
+                except:
+                    pass
+                return []
             wait_time = 15 * (2 ** attempt)
             print(f"\n[Gemini] Tentativa {attempt+1} falhou (HTTP {e.code}). Retrying in {wait_time}s...", flush=True)
             time.sleep(wait_time)
@@ -288,10 +351,7 @@ def run_refinement(filename, is_qss, val_label):
     
     for idx, art in enumerate(articles):
         is_missing = (
-            art.get(TOOL_KEY) == "N/A" and
-            art.get(IDENT_KEY) == "N/A" and
-            art.get(WHERE_KEY) == "N/A" and
-            art.get(SOURCE_KEY) == "N/A" and
+            (art.get(TOOL_KEY) == "N/A" or art.get(SOURCE_KEY) == "N/A") and
             not art.get("_refined", False)
         )
         if is_missing:
@@ -314,7 +374,7 @@ def run_refinement(filename, is_qss, val_label):
             
     total_missing = len(missing_indices)
     print(f"\n[Refinamento] Total de artigos: {len(articles)}.")
-    print(f"[Refinamento] Artigos sem informações (N/A completo): {total_missing}.", flush=True)
+    print(f"[Refinamento] Artigos pendentes de refinamento (sem ferramenta ou sem fonte): {total_missing}.", flush=True)
     
     if total_missing == 0:
         print("[Refinamento] Excelente! 100% dos artigos já estão preenchidos. Nada a fazer.", flush=True)
@@ -357,13 +417,18 @@ def run_refinement(filename, is_qss, val_label):
                 articles[ref_id]["_refined"] = True
 
         for item in classified_batch:
-            ref_id = item.get("id")
-            if ref_id is not None and ref_id in missing_indices:
-                articles[ref_id][TOOL_KEY] = item.get("Ferramenta", "N/A")
-                articles[ref_id][IDENT_KEY] = item.get("Identifica", "N/A")
-                articles[ref_id][WHERE_KEY] = item.get("Onde", "N/A")
-                articles[ref_id][SOURCE_KEY] = item.get("Fonte", "N/A")
-                success_count += 1
+            raw_id = item.get("id")
+            if raw_id is not None:
+                try:
+                    ref_id = int(raw_id)
+                except (ValueError, TypeError):
+                    continue
+                if ref_id in missing_indices:
+                    articles[ref_id][TOOL_KEY] = item.get("Ferramenta", "N/A")
+                    articles[ref_id][IDENT_KEY] = item.get("Identifica", "N/A")
+                    articles[ref_id][WHERE_KEY] = item.get("Onde", "N/A")
+                    articles[ref_id][SOURCE_KEY] = item.get("Fonte", "N/A")
+                    success_count += 1
                 
         # Atraso de 8 segundos entre chamadas para evitar Rate Limit (429) do Gemini
         time.sleep(8.0)
@@ -397,21 +462,23 @@ def display_menu():
         ("datasets/qss_volume_2_data.json", True, "QSS Vol 2 (2021)"),
         ("datasets/qss_volume_3_data.json", True, "QSS Vol 3 (2022)"),
         ("datasets/qss_volume_4_data.json", True, "QSS Vol 4 (2023)"),
+        ("datasets/qss_volume_5_data.json", True, "QSS Vol 5 (2024)"),
+        ("datasets/qss_volume_6_data.json", True, "QSS Vol 6 (2025)"),
         ("datasets/ebbc_2020_data.json", False, "EBBC 2020"),
         ("datasets/ebbc_2022_data.json", False, "EBBC 2022"),
         ("datasets/ebbc_2024_data.json", False, "EBBC 2024")
     ]
     
-    print("\n" + "=" * 60)
+    print("\n" + "=" * 70)
     print("      SISTEMA DE CURADORIA DE PESQUISAS ACADÊMICAS (IA)")
-    print("=" * 60)
-    print(f"{'Opção':<6} | {'Dataset':<20} | {'Total':<6} | {'Todos N/A (Incompletos)':<22}")
-    print("-" * 60)
+    print("=" * 70)
+    print(f"{'Opção':<6} | {'Dataset':<20} | {'Total':<6} | {'Pendentes (Não Refinados)':<26}")
+    print("-" * 70)
     
     stats = {}
     for idx, (filename, is_qss, label) in enumerate(targets, 1):
         total = 0
-        all_na = 0
+        pendentes = 0
         filepath = os.path.join(ROOT_DIR, filename)
         if os.path.exists(filepath):
             try:
@@ -419,44 +486,56 @@ def display_menu():
                     data = json.load(f)
                     total = len(data)
                     for item in data:
-                        is_all_na = (
-                            item.get(TOOL_KEY) == "N/A" and
-                            item.get(IDENT_KEY) == "N/A" and
-                            item.get(WHERE_KEY) == "N/A" and
-                            item.get(SOURCE_KEY) == "N/A" and
+                        is_incomplete = (
+                            (item.get(TOOL_KEY) == "N/A" or item.get(SOURCE_KEY) == "N/A") and
                             not item.get("_refined", False)
                         )
-                        if is_all_na:
-                            all_na += 1
+                        if is_incomplete:
+                            pendentes += 1
             except:
                 pass
-        stats[idx] = (filename, is_qss, label, all_na)
-        print(f" {idx:<4} | {label:<20} | {total:<6} | {all_na:<22}")
+        stats[idx] = (filename, is_qss, label, pendentes)
+        print(f" {idx:<4} | {label:<20} | {total:<6} | {pendentes:<26}")
         
-    print("-" * 60)
-    print(" 8    | REFINE TODOS os datasets acima consecutivamente")
-    print(" 9    | RECONSTRUIR Planilha Excel (coleta de dados gabriel.xlsx)")
-    print(" 10   | SAIR")
-    print("=" * 60)
+    num_targets = len(targets)
+    opt_refine_all = str(num_targets + 1)
+    opt_rebuild_excel = str(num_targets + 2)
+    opt_exit = str(num_targets + 3)
+    
+    print("-" * 70)
+    print(f" {opt_refine_all:<4} | REFINE TODOS os datasets acima consecutivamente")
+    print(f" {opt_rebuild_excel:<4} | RECONSTRUIR Planilha Excel (coleta de dados gabriel.xlsx)")
+    print(f" {opt_exit:<4} | SAIR")
+    print("=" * 70)
     
     try:
-        opt = input("Selecione uma opção (1-10): ").strip()
-        if opt == "10":
+        opt = input(f"Selecione uma opção (1-{opt_exit}): ").strip()
+        if opt == opt_exit:
             return False
-        elif opt == "9":
+        elif opt == opt_rebuild_excel:
             rebuild_excel()
-        elif opt == "8":
+        elif opt == opt_refine_all:
+            # Validar chave antes de rodar
+            if not validate_and_setup_api_key():
+                print("Operação cancelada: Chave de API inválida.")
+                return True
             # Rodar tudo
-            for idx, (filename, is_qss, label, all_na) in stats.items():
-                if all_na > 0:
+            for idx, (filename, is_qss, label, pendentes) in stats.items():
+                if pendentes > 0:
                     run_refinement(filename, is_qss, label)
             rebuild_excel()
         else:
             opt_idx = int(opt)
             if opt_idx in stats:
-                filename, is_qss, label, all_na = stats[opt_idx]
-                run_refinement(filename, is_qss, label)
-                rebuild_excel()
+                filename, is_qss, label, pendentes = stats[opt_idx]
+                if pendentes > 0:
+                    if not validate_and_setup_api_key():
+                        print("Operação cancelada: Chave de API inválida.")
+                        return True
+                    run_refinement(filename, is_qss, label)
+                    rebuild_excel()
+                else:
+                    print(f"\n[Aviso] O dataset '{label}' já está 100% refinado!")
             else:
                 print("Opção inválida!")
     except ValueError:

@@ -392,6 +392,7 @@ def main():
             refined_item["Identifica a ferramenta?"] = ref["Identifica"]
             refined_item["Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)"] = ref["Onde"]
             refined_item["Fonte de coleta de dados (da onde o pesquisador tirou a informação?)"] = ref["Fonte"]
+            refined_item["_refined"] = True
             
         refined_dataset.append(refined_item)
         

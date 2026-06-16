@@ -5,7 +5,7 @@ import os
 import time
 import urllib.error
 
-API_KEY = "AIzaSyDwg3GS9x3fwfcqEFMbocW8RUpNTWRvU2w"
+API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key={API_KEY}"
 
 def call_gemini_batch_refine(batch_papers):
@@ -132,13 +132,18 @@ def main():
             classified_batch = call_gemini_batch_refine(batch)
             
             for item in classified_batch:
-                ref_id = item.get("id")
-                if ref_id is not None and ref_id in missing_indices:
-                    articles[ref_id][tool_key] = item.get("Ferramenta", "N/A")
-                    articles[ref_id][id_key] = item.get("Identifica", "N/A")
-                    articles[ref_id][where_key] = item.get("Onde", "N/A")
-                    articles[ref_id][source_key] = item.get("Fonte", "N/A")
-                    refined_count += 1
+                raw_id = item.get("id")
+                if raw_id is not None:
+                    try:
+                        ref_id = int(raw_id)
+                    except (ValueError, TypeError):
+                        continue
+                    if ref_id in missing_indices:
+                        articles[ref_id][tool_key] = item.get("Ferramenta", "N/A")
+                        articles[ref_id][id_key] = item.get("Identifica", "N/A")
+                        articles[ref_id][where_key] = item.get("Onde", "N/A")
+                        articles[ref_id][source_key] = item.get("Fonte", "N/A")
+                        refined_count += 1
             
             # Atraso seguro de 10 segundos entre chamadas para evitar 429
             time.sleep(10.0)
