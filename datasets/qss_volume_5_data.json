@@ -5,9 +5,10 @@
     "Autoria": "Mark A. Hanson, Pablo Gómez Barreiro, Paolo Crosetto, Dan Brockington",
     "Palavras-chave": "Scientific publishing, Strain (injury), Publishing, Political science, Biology, Law, Anatomy",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Websites de editoras (web scraping), Editoras diretamente (sob solicitação)"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00310",
@@ -26,8 +27,9 @@
     "Palavras-chave": "Metadata, Completeness (order theory), Computer science, Database, Information retrieval, Degree (music), World Wide Web, Mathematics",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Crossref, Dimensions, Google Scholar, Microsoft Academic, OpenAlex, Scilit, Semantic Scholar, The Lens"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Crossref, Dimensions, Google Scholar, Microsoft Academic, OpenAlex, Scilit, Semantic Scholar, The Lens",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00285",
@@ -46,8 +48,9 @@
     "Palavras-chave": "Scopus, Field (mathematics), Web of science, Quality (philosophy), Data science, Computer science, World Wide Web, Information retrieval, Psychology, Political science, Epistemology, MEDLINE, Mathematics, Philosophy",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science (WoS), Scopus"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00304",
@@ -96,8 +99,9 @@
     "Palavras-chave": "Publishing, Ethnic group, Inequality, Gender inequality, Sociology, Demographic economics, Political science, Gender studies, Economics, Mathematics, Anthropology, Law",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Registros de doutorado de universidades holandesas, dados de publicação"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dutch university records",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00297",
@@ -117,7 +121,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Literatura científica secundária (revisão sistemática de literatura), Literatura cinzenta"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "English-language sources, Russian literature, gray literature",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00323",
@@ -136,8 +141,9 @@
     "Palavras-chave": "Data science, Diamond, Computer science, Engineering ethics, Political science, Library science, World Wide Web, Engineering, Chemistry",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Diretórios de periódicos de acesso aberto, dados de taxas de processamento de artigos (APCs)"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00329",
@@ -156,8 +162,9 @@
     "Palavras-chave": "Revenue, Gateway (web page), Library science, Business, Economics, Political science, Accounting, Computer science, World Wide Web",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dados de Butler et al. (2023), Web of Science (Peer Review gateway)"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00322",
@@ -256,8 +263,9 @@
     "Palavras-chave": "Preprint, Coronavirus disease 2019 (COVID-19), Journalism, Pandemic, Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), 2019-20 coronavirus outbreak, Media studies, Medicine, Sociology, Computer science, World Wide Web, Virology",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "bioRxiv, medRxiv, arXiv, SSRN, 94 veículos de comunicação, Web of Science"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "bioRxiv, medRxiv, arXiv, SSRN, Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00298",
@@ -466,8 +474,9 @@
     "Palavras-chave": "Observational study, Psychology, Mathematics, Statistics",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Artigo científico original e dados experimentais de Cruz-Castro & Sanz-Menéndez (2023)"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00318",
@@ -496,8 +505,9 @@
     "Palavras-chave": "Publishing, Scientific publishing, Movement (music), Open science, Library science, Political science, Regional science, Geography, Computer science, Art, Mathematics",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Sucupira, Plataforma Lattes (CNPq), Directory of Open Access Journals (DOAJ)"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Sucupira, Plataforma Lattes, Directory of Open Access Journals",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00309",

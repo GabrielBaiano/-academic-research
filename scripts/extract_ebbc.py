@@ -51,7 +51,7 @@ def scrape_issue(issue_url, year):
         "CiteSpace": r"\bcitespace\b",
         "bibliometrix": r"\bbibliometrix\b|\br-bibliometrix\b",
         "Python": r"\bpython\b",
-        "R": r"\b[Rr]\b\s+(?:language|programming|script|package|studio|ggplot|\bbase\b|\blibrary\b)",
+        "R": r"\b[Rr]\b\s+(?:language|programming|script|package[s]?|studio|ggplot|environment|code|software|statistical|\bbase\b|\blibrary\b)|\b(?:uses|used|using|in)\s+[Rr]\b|\b[Rr]\s*-\s*based\b|\b[Rr]\s*\(\s*(?:version|v\d+)",
         "Excel": r"\bexcel\b|\bms\s+excel\b",
         "SPSS": r"\bspss\b",
         "Stata": r"\bstata\b",

@@ -39,21 +39,34 @@ def main():
     # ISSN do QSS: 2641-3337, Volume 6
     issn = "2641-3337"
     volume = "6"
-    url = f"https://api.openalex.org/works?filter=locations.source.issn:{issn},biblio.volume:{volume}&per_page=100"
     
-    req = urllib.request.Request(
-        url, 
-        headers={"User-Agent": "mailto:gabriel@example.com"}
-    )
+    results = []
+    page = 1
+    per_page = 100
     
-    try:
-        with urllib.request.urlopen(req) as res:
-            data = json.loads(res.read().decode("utf-8"))
-    except Exception as e:
-        print(f"Erro ao conectar com a API do OpenAlex: {e}")
-        return
+    while True:
+        url = f"https://api.openalex.org/works?filter=locations.source.issn:{issn},biblio.volume:{volume}&per_page={per_page}&page={page}"
+        req = urllib.request.Request(
+            url, 
+            headers={"User-Agent": "mailto:gabriel@example.com"}
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=30) as res:
+                data = json.loads(res.read().decode("utf-8"))
+                page_results = data.get("results", [])
+                if not page_results:
+                    break
+                results.extend(page_results)
+                print(f"Página {page}: {len(page_results)} artigos retornados pelo OpenAlex.")
+                if len(page_results) < per_page:
+                    break
+                page += 1
+                import time
+                time.sleep(0.5)
+        except Exception as e:
+            print(f"Erro ao conectar com a API do OpenAlex na página {page}: {e}")
+            break
 
-    results = data.get("results", [])
     print(f"Total de artigos retornados pelo OpenAlex: {len(results)}")
     
     # Dicionário de Regex para Ferramentas
@@ -63,7 +76,7 @@ def main():
         "CiteSpace": r"\bcitespace\b",
         "bibliometrix": r"\bbibliometrix\b|\br-bibliometrix\b",
         "Python": r"\bpython\b",
-        "R": r"\b[Rr]\b\s+(?:language|programming|script|package|studio|ggplot|\bbase\b|\blibrary\b)",
+        "R": r"\b[Rr]\b\s+(?:language|programming|script|package[s]?|studio|ggplot|environment|code|software|statistical|\bbase\b|\blibrary\b)|\b(?:uses|used|using|in)\s+[Rr]\b|\b[Rr]\s*-\s*based\b|\b[Rr]\s*\(\s*(?:version|v\d+)",
         "Excel": r"\bexcel\b|\bms\s+excel\b",
         "SPSS": r"\bspss\b",
         "Stata": r"\bstata\b",

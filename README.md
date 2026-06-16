@@ -29,6 +29,15 @@ graph TD
 
 ---
 
+## ⚡ Recursos de Robustez e Otimização
+
+O pipeline foi projetado para ser resiliente a falhas e eficiente no consumo de recursos:
+* **Persistência Intermediária (Gravação em Lote):** O progresso da classificação do Gemini é salvo nos arquivos JSON correspondentes após cada lote de 10 artigos processados com sucesso. Se a execução for interrompida (por exemplo, queda de energia, cancelamento ou falha de rede), o progresso é preservado e a execução continuará exatamente de onde parou na próxima rodada.
+* **Paginação Automática no OpenAlex:** Toda a extração e mapeamento de metadados que consulta a API do OpenAlex (volumes do QSS) agora utiliza paginação dinâmica inteligente. Isso garante que nenhum artigo seja omitido do dataset consolidado, mesmo que o volume consultado ultrapasse o limite de registros por requisição.
+* **Filtro Aprimorado para Linguagem R:** A expressão regular de primeira passagem que identifica o uso do "R" foi otimizada para capturar variações metodológicas comuns (ex: `uses R`, `using R`, `in R`, `R packages`, `R-based`, `R (version...)`), reduzindo os falsos negativos e diminuindo a quantidade de requisições de fallback enviadas à API do Gemini.
+
+---
+
 ## 📂 Estrutura do Projeto
 
 Os arquivos foram organizados de forma modular e limpa:

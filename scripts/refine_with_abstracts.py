@@ -141,37 +141,51 @@ def reconstruct_abstract(inverted_index):
 # ----------------- Recuperadores de Abstracts -----------------
 
 def get_qss_abstracts(volume):
-    """Busca todos os artigos de um volume do QSS no OpenAlex e reconstrói os abstracts."""
+    """Busca todos os artigos de um volume do QSS no OpenAlex e reconstrói os abstracts com paginação."""
     print(f"\n[OpenAlex] Buscando metadados completos do QSS Volume {volume}...", flush=True)
     issn = "2641-3337"
-    url = f"https://api.openalex.org/works?filter=locations.source.issn:{issn},biblio.volume:{volume}&per_page=200"
     
-    req = urllib.request.Request(
-        url, 
-        headers={"User-Agent": "mailto:gabriel@example.com"}
-    )
+    abstracts_map = {}
+    page = 1
+    per_page = 200
     
-    try:
-        with urllib.request.urlopen(req, timeout=30) as res:
-            data = json.loads(res.read().decode("utf-8"))
-            results = data.get("results", [])
-            print(f"[OpenAlex] Sucesso! {len(results)} artigos retornados para o Volume {volume}.", flush=True)
-            
-            abstracts_map = {}
-            for w in results:
-                doi = w.get("doi", "")
-                title = w.get("title", "")
-                abstract = reconstruct_abstract(w.get("abstract_inverted_index", {}))
+    while True:
+        url = f"https://api.openalex.org/works?filter=locations.source.issn:{issn},biblio.volume:{volume}&per_page={per_page}&page={page}"
+        req = urllib.request.Request(
+            url, 
+            headers={"User-Agent": "mailto:gabriel@example.com"}
+        )
+        
+        try:
+            with urllib.request.urlopen(req, timeout=30) as res:
+                data = json.loads(res.read().decode("utf-8"))
+                results = data.get("results", [])
+                if not results:
+                    break
                 
-                # Mapear por DOI (se disponível) e por Título Normalizado
-                if doi:
-                    abstracts_map[doi.lower().strip()] = abstract
-                if title:
-                    abstracts_map[normalize_title(title)] = abstract
-            return abstracts_map
-    except Exception as e:
-        print(f"[OpenAlex] Erro ao conectar na API: {e}", flush=True)
-        return {}
+                print(f"[OpenAlex] Página {page}: {len(results)} artigos retornados.", flush=True)
+                
+                for w in results:
+                    doi = w.get("doi", "")
+                    title = w.get("title", "")
+                    abstract = reconstruct_abstract(w.get("abstract_inverted_index", {}))
+                    
+                    # Mapear por DOI (se disponível) e por Título Normalizado
+                    if doi:
+                        abstracts_map[doi.lower().strip()] = abstract
+                    if title:
+                        abstracts_map[normalize_title(title)] = abstract
+                        
+                if len(results) < per_page:
+                    break
+                page += 1
+                time.sleep(0.5)  # Atraso respeitoso para evitar sobrecarga
+        except Exception as e:
+            print(f"[OpenAlex] Erro ao conectar na API na página {page}: {e}", flush=True)
+            break
+            
+    print(f"[OpenAlex] Sucesso! Total de {len(abstracts_map)} abstracts mapeados para o Volume {volume}.", flush=True)
+    return abstracts_map
 
 def get_ebbc_abstracts(year):
     """Busca e raspa os abstracts do EBBC para o ano selecionado, usando cache local."""
@@ -430,6 +444,13 @@ def run_refinement(filename, is_qss, val_label):
                     articles[ref_id][SOURCE_KEY] = item.get("Fonte", "N/A")
                     success_count += 1
                 
+        # Salvar progresso parcial para persistência intermediária a cada lote
+        try:
+            with open(filepath, "w", encoding="utf-8") as f:
+                json.dump(articles, f, ensure_ascii=False, indent=2)
+        except Exception as save_err:
+            print(f"\n[Aviso] Falha ao salvar progresso parcial do lote {lote_num}: {save_err}", flush=True)
+
         # Atraso de 8 segundos entre chamadas para evitar Rate Limit (429) do Gemini
         time.sleep(8.0)
         

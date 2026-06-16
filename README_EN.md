@@ -29,6 +29,15 @@ graph TD
 
 ---
 
+## ⚡ Robustness and Optimization Features
+
+The pipeline is designed to be resilient to failures and highly efficient:
+* **Intermediate Persistence (Batch Saving):** Curation progress from the Gemini API is written back to the respective JSON files after every single batch of 10 articles is successfully processed. If the execution is interrupted (e.g., power loss, rate limit, network drop), progress is preserved and the execution resumes seamlessly from where it left off.
+* **Automated OpenAlex Pagination:** All data extraction querying the OpenAlex API (QSS volumes) now runs with dynamic paginated requests. This ensures complete coverage for volumes with large numbers of articles, going beyond the single-page request limits.
+* **Enhanced R Language Regex:** The initial regex match for R was refined to detect common variations (e.g., `uses R`, `using R`, `in R`, `R packages`, `R-based`, `R (version...)`), significantly decreasing false negatives before triggering the AI fallback.
+
+---
+
 ## 📂 Project Structure
 
 The files are organized in a modular and clean structure:
