@@ -7,7 +7,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00228",
@@ -27,17 +28,19 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Overton"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Overton",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00213",
     "Título": "Predatory publishing in Scopus: Evidence on cross-country differences",
     "Autoria": "Vít Macháček, Martin Srholec",
     "Palavras-chave": "Scopus, Publishing, Publication, Citation, Citation impact, Web of science, Political science, Citation analysis, Geography, Library science, Social science, Sociology, Law, MEDLINE, Computer science",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Ulrichsweb, Beall’s lists"
+    "Ferramenta utilizada": "Ulrichsweb",
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Ulrichsweb, Beall’s lists",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00224",
@@ -47,7 +50,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Institutional documents"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Documentação institucional",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00188",
@@ -57,7 +61,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00183",
@@ -77,7 +82,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "National universities (Italy)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Universidades italianas",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00187",
@@ -86,8 +92,9 @@
     "Palavras-chave": "CRISPR, Government (linguistics), Transformative learning, Genome editing, Business, Public relations, Political science, Sociology, Biology, Gene, Genetics",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Academic databases (implied)"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00215",
@@ -118,7 +125,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Web of Science, Dimensions, Microsoft Academic"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Web of Science, Dimensions, Microsoft Academic",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00191",
@@ -138,8 +146,9 @@
     "Palavras-chave": "Gender gap, Representation (politics), Gender disparity, Population, Women in science, Agriculture, Geography, Social science, Demography, Gender studies, Political science, Sociology, Demographic economics, Law",
     "Ferramenta utilizada": "Gender-API, Genderize.Io, Namsor",
     "Identifica a ferramenta?": "Sim",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00210",
@@ -149,7 +158,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Crossref, Web of Science, Scopus, Dimensions, Lens, PubMed"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Crossref, Dutch Research Council, Web of Science, Scopus, Dimensions, Lens, PubMed",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00222",
@@ -158,8 +168,9 @@
     "Palavras-chave": "Digital humanities, Citation, Subject (documents), Metadata, Domain (mathematical analysis), The arts, Citation analysis, Humanities, Library science, Data science, Computer science, World Wide Web, Philosophy, Art, Mathematics",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00184",
@@ -169,7 +180,8 @@
     "Ferramenta utilizada": "k-core algorithm, Leiden algorithm",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00223",
@@ -196,10 +208,11 @@
     "Título": "Generic instruments in a synchrotron radiation facility",
     "Autoria": "Kristofer Rolf Söderström, Fredrik Åström, Olof Hallonsten",
     "Palavras-chave": "Operationalization, Beamline, Synchrotron radiation, Bibliometrics, Scientific instrument, Sample (material), Computer science, Discipline, Data science, World Wide Web, Physics, Sociology, Optics, Social science",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
+    "Ferramenta utilizada": "Herfindahl-based index",
+    "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "European Synchrotron Radiation Facility (ESRF) publication database, Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "European Synchrotron Radiation Facility (ESRF) publication database, Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00207",
@@ -209,7 +222,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Science Foundation Ireland"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Science Foundation Ireland",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00212",
@@ -219,7 +233,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Crossref, Scopus, Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Crossref, Scopus, Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00211",
@@ -229,7 +244,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Microsoft Academic Graph, Web of Science, Dimensions, ACM Digital Library"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Microsoft Academic Graph, Web of Science (WoS), Dimensions, ACM Digital Library",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00174",
@@ -238,8 +254,9 @@
     "Palavras-chave": "Obsolescence, Citation, Computer science, Data science, Dynamics (music), Preprint, Citation impact, World Wide Web, Sociology",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "arXiv"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "arXiv",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00226",
@@ -248,8 +265,9 @@
     "Palavras-chave": "Computer science, Knowledge graph, Information retrieval, Graph, Set (abstract data type), Data science, Subject (documents), Informetrics, World Wide Web, Bibliometrics, Theoretical computer science",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Wikipedia"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Wikipedia",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00182",
@@ -258,8 +276,9 @@
     "Palavras-chave": "Prosperity, German, Socioeconomic status, Ranking (information retrieval), Regional science, Population, Geography, Position (finance), Sociology, Economic growth, Political science, Demography, Economics, Computer science",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Leiden Ranking 2020"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Leiden Ranking 2020",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00194",
@@ -279,7 +298,8 @@
     "Ferramenta utilizada": "Louvain algorithm",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00208",
@@ -288,18 +308,20 @@
     "Palavras-chave": "Diversity (politics), Citation, Citation impact, Similarity (geometry), Variance (accounting), Scientometrics, Species evenness, Political science, Subject (documents), Regional science, Sociology, Economics, Social science, Computer science, Library science",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00203",
     "Título": "Open bibliographic data and the Italian National Scientific Qualification: Measuring coverage of academic fields",
     "Autoria": "Federica Bologna, Angelo Di Iorio, Silvio Peroni, Francesco Poggi",
     "Palavras-chave": "Open data, Skepticism, Computer science, Data science, Process (computing), Library science, World Wide Web, Epistemology",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Microsoft Academic Graph, Crossref, OpenAIRE"
+    "Ferramenta utilizada": "Microsoft Academic Graph, Crossref, OpenAIRE",
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Microsoft Academic Graph, Crossref, OpenAIRE",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00176",
@@ -320,7 +342,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "PubMed"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "PubMed",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00216",
@@ -329,8 +352,9 @@
     "Palavras-chave": "Visualization, Overlay, Computer science, Data science, Information retrieval, Cluster analysis, Citation, Information visualization, Data mining, World Wide Web, Artificial intelligence",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "PubMed"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "PubMed",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00199",
@@ -339,8 +363,9 @@
     "Palavras-chave": "Scopus, Impact factor, Citation, Link (geometry), Subject (documents), Quality (philosophy), Open access journal, Statistics, Medicine, Computer science, MEDLINE, Mathematics, Library science, Political science",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Majestic"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Majestic",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00198",
@@ -349,8 +374,9 @@
     "Palavras-chave": "Norwegian, Citation, Field (mathematics), Regional science, Citation impact, Focus (optics), Political science, Economic geography, Geography, Mathematics, Law, Physics",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00206",
@@ -359,8 +385,9 @@
     "Palavras-chave": "Field (mathematics), Benchmark (surveying), Measure (data warehouse), Econometrics, Capital (architecture), Economics, Regional science, Computer science, Mathematics, Geography, Data mining, Cartography",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00180",
@@ -369,8 +396,9 @@
     "Palavras-chave": "Citation, Publication, Exploit, Quarter (Canadian coin), Institution, Political science, Library science, Social science, Sociology, Computer science, History, Law",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "American Economic Review"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00220",
@@ -379,8 +407,9 @@
     "Palavras-chave": "Possessive, Vocabulary, Computer science, Word (group theory), Noun, Linguistics, Research data, Process (computing), Value (mathematics), Data science, Natural language processing",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00193",
@@ -390,7 +419,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00205",
@@ -410,7 +440,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Wikipedia"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Wikipedia",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00172",
@@ -420,7 +451,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ANVUR"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ANVUR",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_e_00214",
@@ -430,7 +462,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00173",
@@ -439,8 +472,9 @@
     "Palavras-chave": "Terminology, Scopus, Set (abstract data type), Inequality, Psychology, Medicine, Gerontology, MEDLINE, Gender studies, Sociology, Computer science, Linguistics, Political science",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00181",
@@ -449,8 +483,9 @@
     "Palavras-chave": "Cyberinfrastructure, Metadata, Computer science, Data science, GenBank, Analytics, World Wide Web",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "GenBank"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "GenBank",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00202",
@@ -459,8 +494,9 @@
     "Palavras-chave": "Robustness (evolution), Vitality, Computer science, Econometrics, Baseline (sea), Mathematics",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00227",
@@ -470,7 +506,8 @@
     "Ferramenta utilizada": "AOC (Assembling Overlapping Clusters)",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00179",
@@ -479,8 +516,9 @@
     "Palavras-chave": "Open data, Data science, Computer science, Scopus, Open research, Complementarity (molecular biology), Open source, World Wide Web, Barometer, Information retrieval, Geography, Political science, MEDLINE",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Web of Science, Microsoft Academic Graph, HAL, ADS, PubMed"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Web of Science, Microsoft Academic Graph, HAL, ADS, PubMed",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00200",
@@ -522,7 +560,8 @@
     "Ferramenta utilizada": "Bayesian causal networks",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00219",
@@ -549,10 +588,11 @@
     "Título": "Traffic Noise, Hazardous noise level, Kurnool city, NIHL, Ambient Noise level, Health education, Sound level meter.",
     "Autoria": "C. Sunil Kumar, Salman Ahmed, M. Mahendra Kumar, H N Champa, M.S. Prakash Rao, Gulnaz Hameed",
     "Palavras-chave": "Sound level meter, Noise (video), Noise level, Hazardous waste, Ambient noise level, Metre, Noise exposure, Environmental science, Background noise, Traffic noise, Acoustics, Sound (geography), Hearing loss, Audiology, Engineering, Medicine, Computer science, Noise reduction, Physics, Waste management",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "GenBank"
+    "Ferramenta utilizada": "Sound level meter",
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00186",
@@ -573,7 +613,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ICPSR"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Interuniversity Consortium for Political and Social Research (ICPSR)",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_e_00196",

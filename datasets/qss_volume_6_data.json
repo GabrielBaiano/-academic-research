@@ -7,7 +7,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00348",
@@ -25,9 +26,10 @@
     "Autoria": "Lokman I. Meho, Elie A. Akl",
     "Palavras-chave": "Bibliometrics, Library science, Social science, Data science, Sociology, Computer science",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
+    "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Metadados de universidades (ranking e citações globais)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss.a.12",
@@ -37,7 +39,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Bases de dados bibliográficas (5 bases), Servidores de preprints (3 servidores)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "bibliographic databases, preprint servers",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss.a.1",
@@ -57,7 +60,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Sistemas de Organização do Conhecimento (45 KOSs)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss.a.22",
@@ -76,8 +80,9 @@
     "Palavras-chave": "Computer science, Optometry, Internet privacy, Business, Medicine",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Diretrizes de autores e declarações de acesso aberto de 300 periódicos"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00353",
@@ -86,8 +91,9 @@
     "Palavras-chave": "Psychology, Gender gap, Business, Demographic economics, Economics",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Retraction Watch, Amostra de 1 milhão de publicações"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Retraction Watch",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00358",
@@ -96,8 +102,9 @@
     "Palavras-chave": "Homophily, Skewness, Diversity (politics), Peer review, Dynamics (music), Ecosystem, Geography, Ecology, Sociology, Economics, Econometrics, Biology, Social science",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Publons"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Publons",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00368",
@@ -174,10 +181,11 @@
     "Título": "On the open road to universal indexing: OpenAlex and Open Journal Systems",
     "Autoria": "Diego Chavarro, Juan Pablo Alperín, John Willinsky",
     "Palavras-chave": "Search engine indexing, Computer science, World Wide Web, Information retrieval",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "OpenAlex, Open Journal Systems (OJS), Crossref"
+    "Ferramenta utilizada": "OpenAlex, Open Journal Systems",
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "OpenAlex",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss.a.393",
@@ -197,17 +205,19 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Literatura científica secundária (Revisão teórica)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss.a.394",
     "Título": "A review of annual statements on research integrity from U.K. institutions in 2023–2024, with a focus on research fraud",
     "Autoria": "Dorothy Bishop",
     "Palavras-chave": "Allegation, Misconduct, Research integrity, Scientific misconduct, Institution, Misappropriation, Focus (optics), Scientific integrity",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Declarações de integridade de 117 universidades britânicas, PubPeer"
+    "Ferramenta utilizada": "PubPeer",
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "PubPeer",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00346",
@@ -226,18 +236,20 @@
     "Palavras-chave": "Transformative learning, Relation (database), Autonomy, Sociology, Quality (philosophy), Library science, Management, Political science, Media studies, Philosophy, Epistemology, Computer science, Law, Economics, Pedagogy",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SciELO, Redalyc"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SciELO, Redalyc",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00341",
     "Título": "Global mobility of the recent STEM postdoctoral workforce registered in ORCID",
     "Autoria": "Hyunuk Kim",
     "Palavras-chave": "Workforce, Library science, Medicine, Medical education, Political science, Computer science, Law",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ORCID"
+    "Ferramenta utilizada": "ORCID",
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ORCID",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00366",
@@ -246,8 +258,9 @@
     "Palavras-chave": "Core (optical fiber), Sociology, History, Epistemology, Telecommunications, Computer science, Philosophy",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Bases de dados bibliográficas (Scopus/Web of Science)"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00340",
@@ -264,10 +277,11 @@
     "Título": "A long and winding road: Research impact evaluation over public policies",
     "Autoria": "Evandro Coggo Cristofoletti, Sergio Salles-Filho, Yohanna Juk, Bernardo Pereira Cabral, Karen Esteves Fernandes Pinto, Sandra Hollanda, Carlos Graziani, Cesar A. Guimarães Pereira",
     "Palavras-chave": "Gateway (web page), Relevance (law), Sustainability, Political science, Database, Data science, Computer science, World Wide Web",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
+    "Ferramenta utilizada": "Overton",
+    "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Overton, FAPESP"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Overton, FAPESP",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss.a.7",
@@ -304,10 +318,11 @@
     "Título": "Prevalence of Registered Reports in experimental psychology journals: A bibliometric study",
     "Autoria": "Dennis M. Gorman, David Hubbard",
     "Palavras-chave": "Bibliometrics, Psychology, Library science, Social science, Applied psychology, Sociology, Computer science",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Ferramenta utilizada": "Web of Science",
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss.a.5",
@@ -324,10 +339,11 @@
     "Título": "Coverage and metadata completeness and accuracy of African research publications in OpenAlex: A comparative analysis",
     "Autoria": "Patricia Alonso-Álvarez, Nees Jan van Eck",
     "Palavras-chave": "Metadata, Scopus, Completeness (order theory), Web of science, Data source",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
+    "Ferramenta utilizada": "OpenAlex",
+    "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "OpenAlex, Scopus, Web of Science, African Journals Online (AJOL)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "OpenAlex, Scopus, Web of Science, African Journals Online",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00355",
@@ -347,7 +363,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A (Carta teórica e epistemológica)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00349",
@@ -366,8 +383,9 @@
     "Palavras-chave": "Gateway (web page), Context (archaeology), Computer science, Data science, Analytics, Key (lock), Library science, World Wide Web, History, Archaeology, Computer security",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Websites da Clarivate, ISI e Thomson Reuters"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Clarivate, Institute for Scientific Information, Thomson Reuters",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00352",
@@ -466,8 +484,9 @@
     "Palavras-chave": "East Asia, Cartography, Geography, History, Humanities, China, Art, Archaeology",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Bases de dados bibliográficas (Scopus/Web of Science)"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00357",
@@ -527,7 +546,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss.a.9",
@@ -576,8 +596,9 @@
     "Palavras-chave": "Pandemic, Coronavirus disease 2019 (COVID-19), Work (physics), Political science, Publishing, Gateway (web page), Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), 2019-20 coronavirus outbreak, Demographic economics, Public relations, Medicine, Economics, Law",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "14 agências de fomento públicas e privadas na Dinamarca"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "14 public and private research funders in Denmark",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss.a.21",

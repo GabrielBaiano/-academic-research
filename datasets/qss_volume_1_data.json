@@ -7,7 +7,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00018",
@@ -17,7 +18,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00021",
@@ -97,9 +99,10 @@
     "Autoria": "Kayvan Kousha, Mike Thelwall",
     "Palavras-chave": "Scopus, Social media, Context (archaeology), Citation, Coronavirus disease 2019 (COVID-19), Web of science, Pandemic, World Wide Web, Internet privacy, Computer science, MEDLINE, Data science, Political science, Medicine, History",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions, Scopus, Web of Science, PubMed, Google Scholar"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions, Scopus, Web of Science, PubMed, Google Scholar",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00068",
@@ -107,9 +110,10 @@
     "Autoria": "Lutz Bornmann, Sitaram Devarakonda, Alexander Tekles, George Chacko",
     "Palavras-chave": "Measure (data warehouse), Field (mathematics), Convergent validity, Index (typography), Convergent evolution, Correlation",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "F1000Prime"
+    "Identifica a ferramenta?": "Não",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "F1000Prime",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00071",
@@ -119,7 +123,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Elsevier, Times Higher Education"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Elsevier, Times Higher Education",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00031",
@@ -128,8 +133,9 @@
     "Palavras-chave": "Scopus, Metadata, Robustness (evolution), Citation, Computer science, Rank (graph theory), Data science, Construct (python library), Set (abstract data type), Information retrieval, Prestige, World Wide Web, Political science, Mathematics, MEDLINE",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus, Microsoft Academic"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus, Microsoft Academic",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00011",
@@ -139,7 +145,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00091",
@@ -159,8 +166,9 @@
     "Palavras-chave": "Subject (documents), Correctness, Web of science, Discipline, The Internet, Web application",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00080",
@@ -168,9 +176,10 @@
     "Autoria": "Giovanni Colavizza",
     "Palavras-chave": "Coronavirus disease 2019 (COVID-19), Social media, Pandemic, Pace, Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), 2019-20 coronavirus outbreak, Computer science, World Wide Web, Information retrieval, Geography, Medicine",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
+    "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Wikipedia"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Wikipedia",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00016",
@@ -179,8 +188,9 @@
     "Palavras-chave": "Publishing, Directory, Prestige, Business model, Impact factor, Value (mathematics), Library science, Subject (documents), Public relations, Political science, Business, Computer science, Marketing, Law",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Directory of Open Access Journals"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Directory of Open Access Journals (DOAJ)",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00038",
@@ -212,7 +222,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00057",
@@ -283,10 +294,11 @@
     "Título": "Against method: Exploding the boundary between qualitative and quantitative studies of science",
     "Autoria": "Donghyun Kang, James A. Evans",
     "Palavras-chave": "Relevance (law), Value (mathematics), Qualitative research, Qualitative property, Scale (ratio), Epistemology, Quantitative research, Qualitative analysis, Sociology, Action (physics), Politics, Quantitative analysis (chemistry), Management science, Data science, Social science, Computer science, Political science, Geography, Engineering",
-    "Ferramenta utilizada": "large-scale text analysis",
-    "Identifica a ferramenta?": "Sim",
+    "Ferramenta utilizada": "N/A",
+    "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00084",
@@ -303,10 +315,11 @@
     "Título": "Transfer of knowledge through international scientific mobility: Introduction of a network-based bibliometric approach to study different knowledge types",
     "Autoria": "Valeria Aman",
     "Palavras-chave": "Operationalization, Knowledge transfer, Computer science, Knowledge management, Process (computing), Body of knowledge, Field (mathematics), Sociology of scientific knowledge, German, Data science, Sociology, Epistemology, Geography, Social science",
-    "Ferramenta utilizada": "network-based approach",
-    "Identifica a ferramenta?": "Sim",
+    "Ferramenta utilizada": "N/A",
+    "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00092",
@@ -315,8 +328,9 @@
     "Palavras-chave": "Citation, Layer (electronics), Computer science, Representation (politics), Data science, Meaning (existential), Value (mathematics), Information retrieval, Citation analysis, Library science, Psychology, Machine learning, Political science",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "INSPIREHEP, APS"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "INSPIREHEP, APS",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00058",
@@ -337,27 +351,30 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "15 major Danish research funders"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Danish research funders",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00088",
     "Título": "Analyzing academic mobility of U.S. professors based on ORCID data and the Carnegie Classification",
     "Autoria": "Erjia Yan, Yongjun Zhu, Jiangen He",
     "Palavras-chave": "Institution, Promotion (chess), Academic institution, Academic mobility, Higher education, Rank (graph theory), Library science, Selection (genetic algorithm), Classification scheme, Political science, Sociology, Computer science, Data science, Law, Artificial intelligence",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Ferramenta utilizada": "ORCID, Carnegie Classification",
+    "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ORCID, Carnegie Classification of Institutions of Higher Education (CCIHE)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ORCID, Carnegie Classification of Institutions of Higher Education",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00004",
     "Título": "Granularity of algorithmically constructed publication-level classifications of research publications: Identification of specialties",
     "Autoria": "Peter Sjögårde, Per Ahlgren",
     "Palavras-chave": "Granularity, Identification (biology), Computer science, Construct (python library), Scope (computer science), Baseline (sea), Information retrieval, Subject (documents), Similarity (geometry), Cluster analysis, Data science, Pairwise comparison, Class (philosophy), Classification scheme, Data mining, Artificial intelligence, World Wide Web, Image (mathematics)",
-    "Ferramenta utilizada": "ACPLC (Algorithmically constructed publication-level classification)",
+    "Ferramenta utilizada": "ACPLC, Construct",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00027",
@@ -407,8 +424,9 @@
     "Palavras-chave": "Confirmatory factor analysis, Content analysis, Measure (data warehouse), Business, Government (linguistics), Computer science, Knowledge management, Marketing, Data mining, Sociology",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Canadian nanotechnology and advanced materials firms corporate websites"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Corporate websites",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00089",
@@ -418,7 +436,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00060",
@@ -447,9 +466,10 @@
     "Autoria": "Adèle Paul‐Hus, Philippe Mongeon, Maxime Sainte-Marie, Vincent Larivière",
     "Palavras-chave": "Psychology",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Identifica a ferramenta?": "Não",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00070",
@@ -457,9 +477,10 @@
     "Autoria": "Filipi Nascimento Silva, Aditya Tandon, Diego Raphael Amancio, Alessandro Flammini, Filippo Menczer, Staša Milojević, Santo Fortunato",
     "Palavras-chave": "Citation, Citation analysis, Process (computing), Scientific literature, Bibliometrics, Correlation",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00037",
@@ -469,7 +490,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "2017 Journal Citation Reports of Clarivate Analytics"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Clarivate Analytics",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00041",
@@ -478,8 +500,9 @@
     "Palavras-chave": "Terminology, Multidisciplinary approach, Scholarship, Field (mathematics), Epistemology, Engineering ethics, Computer science, Social science, Sociology, Linguistics, Political science, Philosophy, Mathematics",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "open access journal articles"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00006",
@@ -488,8 +511,9 @@
     "Palavras-chave": "Similarity (geometry), Citation, Field (mathematics), Association (psychology), Interlocking, Editorial board, Library science, Sociology, Social science, Computer science, Mathematics, Epistemology, Engineering, Artificial intelligence, Philosophy",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00045",
@@ -519,8 +543,9 @@
     "Palavras-chave": "Publishing, Context (archaeology), Higher education, Library science, Matching (statistics), Political science, Period (music), Distribution (mathematics), Computer science, Geography, Statistics, Law, Mathematics",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SwePub database"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SwePub",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00065",
@@ -541,17 +566,19 @@
     "Ferramenta utilizada": "BM25",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00008",
     "Título": "Does the <i>h</i><sub>α</sub>-index reinforce the Matthew effect in science? The introduction of agent-based simulations into scientometrics",
     "Autoria": "Lutz Bornmann, Christian Ganser, Alexander Tekles, Loet Leydesdorff",
     "Palavras-chave": "Index (typography), Scientometrics, Publishing, Sociology, Mathematical economics, Positive economics, Epistemology, Social science, Computer science, Economics, Philosophy, Political science, Law",
-    "Ferramenta utilizada": "Stata (h_index), R (hindex)",
+    "Ferramenta utilizada": "Stata, R",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00012",
@@ -559,9 +586,10 @@
     "Autoria": "Lutz Bornmann",
     "Palavras-chave": "Bibliometrics, Heuristics, Citation, Computer science, Data science, Transparency (behavior), Field (mathematics), Citation analysis, Data mining, Information retrieval, Mathematics, Library science",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00090",
@@ -570,8 +598,9 @@
     "Palavras-chave": "Seniority, Disadvantaged, Economic shortage, Perception, Psychology, Political science",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "zbMATH, arXiv, ADS"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "zbMATH, arXiv, ADS",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00007",
@@ -581,7 +610,8 @@
     "Ferramenta utilizada": "random graph models",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00046",
@@ -611,18 +641,20 @@
     "Palavras-chave": "Citation, Quartile, Discipline, Citation analysis, Sentiment analysis, Scholarly communication, Data science, Computer science, Information retrieval, Library science, Social science, Political science, Medicine, Sociology, Publishing, Artificial intelligence",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "PubMed Central (PMC)"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "PubMed Central",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00029",
     "Título": "Citation concept analysis (CCA) of Robert K. Merton’s book <i>Social Theory and Social Structure</i>: How often are certain concepts from the book cited in subsequent publications?",
     "Autoria": "Charles Crothers, Lutz Bornmann, Robin Haunschild",
     "Palavras-chave": "Citation, Manifesto, Citation analysis, Perspective (graphical), Bibliometrics, Sociology, Epistemology, Social science, Explanatory power, Computer science, Political science, Library science, Philosophy, Artificial intelligence, Law",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Ferramenta utilizada": "Citation Concept Analysis (CCA)",
+    "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00083",
@@ -653,17 +685,19 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00069",
     "Título": "Greater female first author citation advantages do not associate with reduced or reducing gender disparities in academia",
     "Autoria": "Mike Thelwall, Pardeep Sud",
     "Palavras-chave": "Citation, Demography, Field (mathematics), Demographic economics, Subject (documents), Citation impact, Political science, Psychology, Medicine, Sociology, Library science, Economics, Mathematics, Law, Computer science",
-    "Ferramenta utilizada": "N/A",
+    "Ferramenta utilizada": "regressions",
     "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00055",
@@ -673,7 +707,8 @@
     "Ferramenta utilizada": "Natural Language Processing",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00081",
@@ -754,10 +789,11 @@
     "Título": "<i>h</i>-Index manipulation by undoing merges",
     "Autoria": "René van Bevern, Christian Komusiewicz, Hendrik Molter, Rolf Niedermeier, Manuel Sorge, Toby Walsh",
     "Palavras-chave": "Undoing, Parameterized complexity, Merge (version control), Index (typography), Computer science, Econometrics, Algorithm, Information retrieval, Mathematics, World Wide Web, Psychology",
-    "Ferramenta utilizada": "N/A",
+    "Ferramenta utilizada": "linear-time algorithms",
     "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Google Scholar"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Google Scholar",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00050",
@@ -765,9 +801,10 @@
     "Autoria": "Mike Thelwall, Amalia Más-Bleda",
     "Palavras-chave": "Scopus, Gender disparity, Gender equality, Subject (documents), Publishing, Gender bias, Demography, Gender studies, Political science, Demographic economics, Psychology, Sociology, Social psychology, MEDLINE, Library science, Economics, Law",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Sim",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00048",
@@ -775,9 +812,10 @@
     "Autoria": "Paul Donner",
     "Palavras-chave": "Computer science, Bibliometrics, Set (abstract data type), Data set, Econometrics, Statistics, Data mining, Mathematics, Artificial intelligence",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "PhD theses"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00044",
@@ -794,10 +832,11 @@
     "Título": "Large publishing consortia produce higher citation impact research but coauthor contributions are hard to evaluate",
     "Autoria": "Mike Thelwall",
     "Palavras-chave": "Citation, Scopus, Publishing, Citation impact, Citation analysis, Library science, Scale (ratio), Impact factor, Bibliometrics, Data science, Computer science, Political science, MEDLINE, Geography, Cartography",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Sim",
+    "Ferramenta utilizada": "agglomerative clustering method",
+    "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00075",
@@ -805,9 +844,10 @@
     "Autoria": "Sitaram Devarakonda, James R. Bradley, Dmitriy Korobskiy, Tandy Warnow, George Chacko",
     "Palavras-chave": "A priori and a posteriori, Class (philosophy), Feature (linguistics), Measure (data warehouse), Log-normal distribution",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00051",
@@ -815,9 +855,10 @@
     "Autoria": "Giovanni Abramo, Ciriaco Andrea D’Angelo, Giovanni Felici",
     "Palavras-chave": "Impact factor, Ask price, Citation, Citation impact, Work (physics), Field (mathematics)",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00074",
@@ -826,8 +867,9 @@
     "Palavras-chave": "Measure (data warehouse), Comparability, Citation, Ranking (information retrieval), Citation impact",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00005",
@@ -847,8 +889,9 @@
     "Palavras-chave": "Work (physics), Focus (optics), Computer science, Political science, Data science, Public relations, Engineering",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00052",
@@ -856,9 +899,10 @@
     "Autoria": "Friso Selten, Cameron Neylon, Chun‐Kai Huang, Paul Groth",
     "Palavras-chave": "Reputation, Ranking (information retrieval), Higher education, Quality (philosophy), Construct (python library), Measure (data warehouse), Globalization, Exploratory factor analysis, Exploratory analysis, Political science, Sociology, Marketing, Econometrics, Mathematics education, Computer science, Economics, Business, Psychology, Social science, Data science, Information retrieval, Economic growth, Service (business), Epistemology",
     "Ferramenta utilizada": "Python",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_e_00024",
@@ -868,7 +912,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus, Google Scholar"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Google Scholar, Web of Science, Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00072",
@@ -878,7 +923,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, MEDLINE"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_e_00094",
@@ -908,8 +954,9 @@
     "Palavras-chave": "Scopus, Altmetrics, Citation, Bibliometrics, Computer science, Citation impact, Library science, Web of science, Data science, World Wide Web, Information retrieval, MEDLINE, Political science",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Mendeley, Web of Science, MEDLINE"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00034",
@@ -919,7 +966,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.1162/qss_a_00078",
@@ -928,7 +976,8 @@
     "Palavras-chave": "Poetry, License, Natural (archaeology), Literature, Sociology, History, Art, Political science, Law",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   }
 ]

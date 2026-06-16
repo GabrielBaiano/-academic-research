@@ -28,7 +28,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.05",
@@ -38,7 +39,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.08",
@@ -48,7 +50,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Biblioteca Virtual da FAPESP, diretório de grupos de pesquisa do CNPq, Plataforma Lattes"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Biblioteca Virtual da FAPESP, diretório de grupos de pesquisa do CNPq, Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.09",
@@ -68,7 +71,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Fundação Oswaldo Cruz (Fiocruz)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.011",
@@ -78,7 +82,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.012",
@@ -88,7 +93,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Questel Orbit"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Questel Orbit",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.013",
@@ -98,7 +104,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.014",
@@ -107,8 +114,9 @@
     "Palavras-chave": "Bibliometria, Bases de dados multidisciplinares, Produção científica",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus, Google Scholar, SciELO, Crossref, Dimensions"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus, Google Scholar, SciELO, Crossref, Dimensions",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.15",
@@ -129,17 +137,19 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "E-MEC"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "E-MEC",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.017",
     "Título": "Acoplamento bibliográfico entre autores, identidade científica e genealogia acadêmica: um estudo a partir de jacob palis junior :  um estudo a partir de Jacob Palis Junior",
     "Autoria": "Rafael Gutierres Castanha",
     "Palavras-chave": "Acoplamento Bibiográfico, Genealogia Acadêmica, Identidade científica",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Ferramenta utilizada": "cosseno de Salton",
+    "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CNPq"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CNPq",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.019",
@@ -148,8 +158,9 @@
     "Palavras-chave": "Acoplamento bibliográfico, Indice de Similaridade, Processamento de linguagem natural",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scientometrics"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scientometrics",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.020",
@@ -159,7 +170,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portais de universidades federais"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portais de universidades",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.021",
@@ -179,7 +191,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Enancib"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ENANCIB",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.23",
@@ -197,9 +210,10 @@
     "Autoria": "Higor Alexandre D. Mascarenhas, Thiago Magela Rodrigues Dias",
     "Palavras-chave": "Mobilidade acadêmica. Ciência da Informação. Análise de dados.",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.24",
@@ -220,7 +234,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Repositório Institucional"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Repositório Institucional da UnB",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.27",
@@ -230,7 +245,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portal de Periódicos da UFG, Crossref, Scopus, Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portal de Periódicos da UFG, Crossref, Scopus, Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.28",
@@ -239,8 +255,9 @@
     "Palavras-chave": "Mata Atlântica, Espírito Santo, Produção científica, Colaboração científica, Instituições financiadoras",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.29",
@@ -249,8 +266,9 @@
     "Palavras-chave": "Sistema de recompensa, Presença online, Métricas em nível de autor, Divulgação Científica",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.30",
@@ -260,7 +278,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.31",
@@ -269,8 +288,9 @@
     "Palavras-chave": "Acesso aberto, IFRN, Rede Federal, Produção científica",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.32",
@@ -279,8 +299,9 @@
     "Palavras-chave": "Padrões de publicação, Sistemas de avaliação e financiamento da pesquisa, Ciências da Saúde, Brasil",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes, Web of Science, Journal Citation Reports, Qualis Periódicos"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.33",
@@ -289,8 +310,9 @@
     "Palavras-chave": "Influência Intelectual, Estrutura Intelectual, Bolsistas de Produtividade",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.34",
@@ -299,8 +321,9 @@
     "Palavras-chave": "Frequência de palavras, Produtividade de periódicos, Indicadores de C&T",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.35",
@@ -310,7 +333,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portal de Periódicos da CAPES"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portal de Periódicos da CAPES",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.36",
@@ -320,7 +344,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Bases de dados de patentes"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Bases de dados de patentes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.40",
@@ -340,7 +365,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SCOPUS"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.44",
@@ -360,7 +386,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.46",
@@ -370,7 +397,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.47",
@@ -380,7 +408,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.48",
@@ -390,7 +419,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Periódicos"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.49",
@@ -400,7 +430,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.50",
@@ -419,8 +450,9 @@
     "Palavras-chave": "Análise de Citação, Autocitação, Pesquisadores PQ-1",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes, CNPq"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.53",
@@ -429,8 +461,9 @@
     "Palavras-chave": "Bibliometria, Análise de Domínio, Produção científica, Web of Science",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.54",
@@ -449,8 +482,9 @@
     "Palavras-chave": "Acesso Aberto, Universidades, Política Científica, Periódicos Híbridos",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.60",
@@ -459,8 +493,9 @@
     "Palavras-chave": "Política, Modelo de Comportamento de Fogg, Bots, Twitter, Desinformação",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Twitter"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Twitter",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.62",
@@ -469,8 +504,9 @@
     "Palavras-chave": "Agradecimentos, Periódicos brasileiros, Instruções aos autores, SciELO",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SciELO"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SciELO",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.63",
@@ -479,8 +515,9 @@
     "Palavras-chave": "Rede de colaboração, Bolsistas produtividade, Colaboração acadêmica",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CNPq"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CNPq",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.65",
@@ -498,9 +535,10 @@
     "Autoria": "Patrícia Mascarenhas Dias, Thiago Magela Rodrigues Dias, Gray Farias Moita",
     "Palavras-chave": "Tópicos de Pesquisa, Produção Científica, Mineração de Texto",
     "Ferramenta utilizada": "Mineração de Texto",
-    "Identifica a ferramenta?": "Sim",
+    "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.67",
@@ -510,7 +548,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "bases de dados"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.69",
@@ -520,7 +559,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CAPES, DAAD"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CAPES, DAAD",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.70",
@@ -530,7 +570,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Sucupira"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Sucupira",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.73",
@@ -539,8 +580,9 @@
     "Palavras-chave": "Plataforma Lattes, Patentes, Bibliometria",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.76",
@@ -559,8 +601,9 @@
     "Palavras-chave": "Bibliometria, Bolsistas de Produtividade, Ciência da Informação, Transgeracionalidade, Influências Intelectuais",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.79",
@@ -569,8 +612,9 @@
     "Palavras-chave": "Bibliometria, Bolsistas de Produtividade, Ciência da Informação, Transgeracionalidade, Influências Intelectuais",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.74",
@@ -600,7 +644,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Sucupira, Qualis-CAPES"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Sucupira",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.81",
@@ -610,7 +655,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CAPES, Latindex"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Latindex, Qualis Periódicos",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.82",
@@ -629,8 +675,9 @@
     "Palavras-chave": "Malacologia, Acesso aberto, APC, Produção científica, Brasil",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.85",
@@ -639,8 +686,9 @@
     "Palavras-chave": "Estudo de Citações, Ciência da Informação, Pessoa com deficiência, Inclusão de PcD",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.84",
@@ -659,8 +707,9 @@
     "Palavras-chave": "Covid-19, Altmetria, Fator de impacto",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.52",
@@ -670,7 +719,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.56",
@@ -690,8 +740,9 @@
     "Palavras-chave": "Competência em informação; Protagonismo social; Inclusão social; Ciência inclusiva; Justiça social",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "BRAPCI"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Base de dados em Ciência da Informação",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.58",
@@ -700,8 +751,9 @@
     "Palavras-chave": "Gerenciadores de referências; Produção científica brasileira; Indicadores bibliométricos",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "BRAPCI"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.59",
@@ -730,9 +782,10 @@
     "Autoria": "Rogério Mugnaini, Miguel Joaquim Santanna Filho, Rafael Jeferson Pezzuto Damaceno",
     "Palavras-chave": "Biodiversidade; Amazônia; Plataforma lattes",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.68",
@@ -740,9 +793,10 @@
     "Autoria": "Kizi Mendonca de Araujo, Fabio Castro Gouveia",
     "Palavras-chave": "Política científica e tecnológica; Financiamento; Ciência da informação",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.75",
@@ -752,7 +806,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "IBICT"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.77",
@@ -760,9 +815,10 @@
     "Autoria": "Stephanie Treiber, Jacqueline Leta",
     "Palavras-chave": "Papiloscopia; Ciência forense; Afiliação; Publicação",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.100",
@@ -792,7 +848,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portais oficiais de periódicos, mídias sociais",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.103",
@@ -800,9 +857,10 @@
     "Autoria": "Stephanie Treiber",
     "Palavras-chave": "Papiloscopia; Ciência forense; Bibliometria; Publicação",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.104",
@@ -810,9 +868,10 @@
     "Autoria": "Rafael Gutierres Castanha",
     "Palavras-chave": "Acoplamento bibliográfico; Genealogia acadêmica; Medidas de similaridade",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Identifica a ferramenta?": "Não",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.105",
@@ -853,7 +912,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Researchgate"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Researchgate",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.109",
@@ -872,7 +932,8 @@
     "Palavras-chave": "Covid; Colaboração; Redes; Liderança",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   }
 ]

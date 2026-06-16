@@ -7,7 +7,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SciELO"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SciELO",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.228",
@@ -27,7 +28,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Catálogo de Teses e Dissertações (CAPES)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Teses e dissertações brasileiras",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.232",
@@ -37,7 +39,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.233",
@@ -47,7 +50,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Ibict, Fiocruz, Fapesp, CNPq"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Ibict, Fiocruz, Fapesp, CNPq",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.234",
@@ -57,7 +61,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "RICI (site)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Site da RICI",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.236",
@@ -67,7 +72,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.237",
@@ -76,8 +82,9 @@
     "Palavras-chave": "Acoplamento bibliográfico, Biblioteconomia, Cocitação, Estudos Métricos da Informação",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Planos de ensino de cursos de graduação em Biblioteconomia no Brasil"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Planos de ensino de cursos de graduação em Biblioteconomia",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.238",
@@ -87,7 +94,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Bases de dados científicas"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.240",
@@ -97,7 +105,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Bases de dados científicas"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.242",
@@ -114,10 +123,11 @@
     "Título": "Qualidade dos dados de pesquisa: aplicação dos princípios FAIR a  partir do Altmetric TOP 100",
     "Autoria": "Francielle Franco dos Santos, Maurício Coelho da Silva, Caterina Marta Groposo Pavão",
     "Palavras-chave": "Ciência Aberta, Dados de Pesquisa, Princípios FAIR, Altmetria",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Altmetric TOP 100, GitHub, FigShare"
+    "Ferramenta utilizada": "GitHub, FigShare",
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Altmetric TOP 100",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.244",
@@ -127,7 +137,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.245",
@@ -136,8 +147,9 @@
     "Palavras-chave": "Fóruns de Discussão, Ibict, Tecnologias Livres, Interação Digital, Webmetria",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Fórum do Ibict"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Fórum do Ibict",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.247",
@@ -157,7 +169,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, SciELO Citation Index"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, SciELO Citation Index",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.250",
@@ -167,7 +180,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Repositório Lume, ResearchGate"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ResearchGate, Repositório Lume",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.251",
@@ -177,7 +191,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Embrapii"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Embrapii",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.252",
@@ -187,7 +202,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.254",
@@ -207,7 +223,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Fiocruz"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Fiocruz",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.256",
@@ -227,7 +244,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.258",
@@ -235,9 +253,10 @@
     "Autoria": "Francielle Franco dos Santos, Rafael Gutierres Castanha",
     "Palavras-chave": "Grupos de pesquisa, Produção científica, Visibilidade, Websites",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, visualização - gerar gráficos",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.260",
@@ -247,7 +266,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SciELO"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SciELO",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.265",
@@ -267,7 +287,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Preprints Citation Index"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Preprints Citation Index",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.268",
@@ -277,7 +298,8 @@
     "Ferramenta utilizada": "Método de Faleschini",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.269",
@@ -287,7 +309,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Bases de dados de C&T"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.272",
@@ -295,9 +318,10 @@
     "Autoria": "Nicoly Schreiber Fick, Felipe Ferreira Barros Carneiro",
     "Palavras-chave": "Objetivos do Desenvolvimento Sustentável, Web of Science, Região Sudeste, Rede Federal de Educação Profissional",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.273",
@@ -306,8 +330,9 @@
     "Palavras-chave": "Altmetria, Métricas alternativas, Repositórios Institucionais, Web social",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Repositórios Institucionais, Web social"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.274",
@@ -316,8 +341,9 @@
     "Palavras-chave": "Repositório Institucional, Identificador Persistente, Handle, Altmetria, Atenção online",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portal OASISBR"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "OASISBR",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.275",
@@ -326,18 +352,20 @@
     "Palavras-chave": "Institutos Federais, Produção científica, Rede Federal de Educação Profissional, Científica e Tecnológica",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.277",
     "Título": "Rede Bibliodata: estudo bibliométrico da catalogação cooperativa",
     "Autoria": "Camila Ribeiro  Teixeira, Tamiê Moraes de  Sousa, Amanda Nunes  Soares, Josina da Silva  Vieira, Letícia Santos de  Jesus, Gabriélle Helpis dos Santos  Gandra, Ana Carolina Simionato  Arakaki",
     "Palavras-chave": "Bibliometria, Lei de Zipf, Bibliodata, Indexação Temática",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Bibliodata"
+    "Ferramenta utilizada": "Lei de Zipf",
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Bibliodata",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.278",
@@ -346,8 +374,9 @@
     "Palavras-chave": "Secretarias Municipais, Ciência, Tecnologia, Inovação",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Poder Executivo Municipal"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.279",
@@ -356,8 +385,9 @@
     "Palavras-chave": "Produção Científica, Ciência Aberta, Moçambique, Análise Bibliométrica",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.280",
@@ -397,7 +427,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SciELO Data"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SciELO Data",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.286",
@@ -416,8 +447,9 @@
     "Palavras-chave": "Acessibilidade digital, Produção científica, Oasisbr",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portal Oasisbr"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portal Oasisbr",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.291",
@@ -427,7 +459,8 @@
     "Ferramenta utilizada": "PLN",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.292",
@@ -436,8 +469,9 @@
     "Palavras-chave": "ChatGPT, Multidisciplinaridade na ciência, Cientometria, Plataforma Lattes",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.293",
@@ -446,8 +480,9 @@
     "Palavras-chave": "Estudo de gênero, Feminismo, Produção científica, Mulheres na ciência",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Lattes"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.296",
@@ -466,8 +501,9 @@
     "Palavras-chave": "Práticas editoriais predatórias, Publicações científicas, Comunicação científica, Plataforma Sucupira, Bibliometria",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Sucupira"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Sucupira",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.299",
@@ -476,8 +512,9 @@
     "Palavras-chave": "Acordos transformativos, Revisão sistemática, Tendências atuais, Prospecções futuras",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Web of Science"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.300",
@@ -487,7 +524,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Instituto Nacional da Mata Atlântica"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Instituto Nacional da Mata Atlântica",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.301",
@@ -517,17 +555,19 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CoARA"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.304",
     "Título": "Leis bibliométricas de Zipf e ponto de transição de goffman: reflexões com estudos pioneiros",
     "Autoria": "Thulio Pereira Dias Gomes",
     "Palavras-chave": "Análise de textos, Frequência de palavras, Leis Bibliométricas de Zipf",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
+    "Ferramenta utilizada": "leis bibliométricas de Zipf",
+    "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.306",
@@ -535,9 +575,10 @@
     "Autoria": "Isabelle Lins Schimuneck, Ronaldo Ferreira de Araújo",
     "Palavras-chave": "COVID-19, Twitter (X), Science communication, Health disinformation",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Twitter (X)"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Twitter (X)",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.307",
@@ -547,7 +588,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "BRAPCI, BDTD, Portal da Capes"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "BRAPCI, BDTD, Portal da Capes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.308",
@@ -557,7 +599,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dedalus, Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dedalus (USP), Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.309",
@@ -565,9 +608,10 @@
     "Autoria": "Natalia Rodrigues Delbianco, Maria Cláudia Cabrini  Grácio",
     "Palavras-chave": "Seguidores, Periódicos da Ciência da Informação, Altmetria, Mídias Sociais, Twitter (X)",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Twitter (X), BRAPCI, Qualis Capes"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "BRAPCI, Twitter (X)",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.312",
@@ -575,9 +619,10 @@
     "Autoria": "Wellington Barbosa  Rodrigues, Jesús Pascual  Mena-Chalco",
     "Palavras-chave": "revisão por pares, banca de defesa de doutorado, redes de colaboração",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.313",
@@ -587,7 +632,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "SisGen"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Sisgen",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.314",
@@ -595,19 +641,21 @@
     "Autoria": "Thaís Dias  Medeiros, Samile Andréa de Souza  Vanz",
     "Palavras-chave": "Cinema, Audiovisual e Animação, Produção Científica, Análise de coocorrência de palavras",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.315",
     "Título": "Communities of attention networks around covid-19 papers in brazil: a preliminarly study",
     "Autoria": "Ronaldo Ferreira de Araujo, Rodrigo Costas",
     "Palavras-chave": "Communities of attention networks, Altmetrics, Covid-19, Brazil ., Twitter (X)",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Ferramenta utilizada": "Social Network Analysis",
+    "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Twitter (X)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Twitter (X)",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.316",
@@ -617,7 +665,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Informação & Sociedade: estudos, Perspectivas em Ciência da Informação, Transinformação"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Informação & Sociedade: estudos, Perspectivas em Ciência da Informação, Transinformação",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.318",
@@ -627,7 +676,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "BRAPCI"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "BRAPCI",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.319",
@@ -644,10 +694,11 @@
     "Título": "Custo de APC em periódicos Qualis: análise por estrato e área de avaliação",
     "Autoria": "Patricia da Silva Neubert, Fábio Lorensi do Canto, Adilson Luiz Pinto, Washington Luís Ribeiro de Carvalho Segundo",
     "Palavras-chave": "Periódico Científico, Acesso aberto, qualis periódicos, article processing charges (APC)",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Ferramenta utilizada": "OpenAlex",
+    "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "OpenAlex, Qualis"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "OpenAlex",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.321",
@@ -656,8 +707,9 @@
     "Palavras-chave": "Análise de citação, Bibliometria, Base de dados cientifícas",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "OpenAlex, Scopus, Web of Science"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "OpenAlex, Scopus, Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.323",
@@ -686,8 +738,9 @@
     "Palavras-chave": "Bibliometria, Biblioteca universitária, Serviço de apoio à pesquisa",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Websites institucionais (PUC)"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Websites das bibliotecas",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.328",
@@ -696,8 +749,9 @@
     "Palavras-chave": "Mulheres na ciência, Pesquisadoras/es Bolsistas de Produtividade do CNPq (PQs), Desigualdade de gênero, CNPq, Ciências Sociais Aplicadas",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CNPq"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CNPq",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.330",
@@ -716,8 +770,9 @@
     "Palavras-chave": "Altmetria, Comunicação científica, Documentos político-institucionais",
     "Ferramenta utilizada": "Altmetric",
     "Identifica a ferramenta?": "Sim",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Altmetric",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.332",
@@ -725,9 +780,10 @@
     "Autoria": "Janaina Lais Pacheco Lara Morandin, Ana Maria Mielniczuk de Moura",
     "Palavras-chave": "Patentes. Inteligência Artificial. Patentometria. INPI.",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "INPI"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "INPI",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.334",
@@ -735,9 +791,10 @@
     "Autoria": "Edla Santana",
     "Palavras-chave": "Competência em informação, Desinformação, Produção científica",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.335",
@@ -755,9 +812,10 @@
     "Autoria": "Allani Sousa Reis, João de Melo Maricato, Robson Lopes de Almeida",
     "Palavras-chave": "Tainacan, Bibliometria, Repositório digital, Produtividade científica, Colaboração científica",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.337",
@@ -775,9 +833,10 @@
     "Autoria": "Rosiane Pedro do  Nascimento, Michely Jabala Mamede Vogel",
     "Palavras-chave": "Estudos Métricos da Informação, Planos de Ensino, Bibliografias, Biblioteconomia",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Planos de ensino",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.340",
@@ -817,7 +876,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci, Plataforma Lattes"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci, LinkedIn",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.344",
@@ -825,9 +885,10 @@
     "Autoria": "Taliane de Assis Oliveira, Nancy Sánchez-Tarragó",
     "Palavras-chave": "Ciência aberta, saúde, Análise de Domínio, Bibliometria, Mapas de ciência",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.348",
@@ -847,7 +908,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes, Painel de Dados CAPES"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes, Painel de Dados da CAPES",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.350",
@@ -857,7 +919,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Periódicos Científicos"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.351",
@@ -865,9 +928,10 @@
     "Autoria": "Verônica de Souza  Gomes, Marcia Regina da Silva",
     "Palavras-chave": "Colaboração científica, Análise de Redes Sociais, Coautoria, Programa de Pós-Graduação em Geociências",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.352",
@@ -875,9 +939,10 @@
     "Autoria": "Asa Fujino, César Antonio Pereira, Adaci Aparecida Oliveira Rosa da  Silva, Marcelo dos Santos",
     "Palavras-chave": "Patentometria, análise de patentes, produção tecnológica, Análise de citação, tecnologias assistivas",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Lens"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Lens",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.353",
@@ -894,10 +959,11 @@
     "Título": "Metodologia de avaliação da qualidade de serviços de informação: um levantamento bibliográfico sobre o tema",
     "Autoria": "Maria Aniolly Queiroz Maia, Milton Shintaku, Ingrid Torres  Schiessl, Diego José Macêdo",
     "Palavras-chave": "Serviços de Informação, Qualidade do serviço, Metodologias de Avaliação",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portal OasisBr, Portal de Periódicos da Capes"
+    "Ferramenta utilizada": "SERVQual, Método Kano",
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portal OasisBr, Portal de Periódicos da Capes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.356",
@@ -926,9 +992,10 @@
     "Autoria": "Leilah Santiago Bufrem, Carla Conforto de Oliveira, Ely Francina Tannuri de Oliveira",
     "Palavras-chave": "Fake News, Produção científica, Acoplamento de documentos",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.359",
@@ -947,9 +1014,10 @@
     "Autoria": "Ana Maria Carneiro, Daniela Maciel  Pinto, João Gabriel Pedreira de Moura Gomes",
     "Palavras-chave": "ORCID, Dados secundários, Carreira Acadêmica, Censo da Educação Superior, Brasil",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ORCID, Censo da Educação Superior"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ORCID, Censo da Educação Superior",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.361",
@@ -998,19 +1066,21 @@
     "Autoria": "Raimundo Nonato Macedo dos  Santos, Natanael Vitor Sobral, Dominique de Lira Vieira Correa, Ana Sara Pereira de Melo  Sobral, Rinaldo Ribeiro de Ribeiro de Melo",
     "Palavras-chave": "Bacia do Rio Doce, Barragem do Fundão, Impactos Socioambientais, Bibliometria, Rompimento de Barragem",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.368",
     "Título": "How do citations in Scopus and the timing of economics and finance research predict citation in policy documents in Brazil?",
     "Autoria": "Carlos Vílchez-Román, Ronaldo Ferreira de Araujo",
     "Palavras-chave": "Economics research, Brazilian policymaking, Negative binomial regression",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Overton"
+    "Ferramenta utilizada": "Negative binomial regression",
+    "Identifica a ferramenta?": "Não",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Overton",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.369",
@@ -1040,7 +1110,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.373",
@@ -1060,7 +1131,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus, OpenAlex"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus, OpenAlex",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.377",
@@ -1079,8 +1151,9 @@
     "Palavras-chave": "Análise de citação, Redes de citação, Índice de atração, Periódicos brasileiros - medicina",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "OpenAlex"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "OpenAlex",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.380",
@@ -1090,7 +1163,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Catálogo de Teses e Dissertações da CAPES"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Catálogo de Teses e Dissertações da CAPES",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.381",
@@ -1100,7 +1174,8 @@
     "Ferramenta utilizada": "Qualis Periódicos, Miguilim",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.383",
@@ -1109,8 +1184,9 @@
     "Palavras-chave": "Colaboração científica, Ansiedade, Saúde Mental, Estudantes",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "PubMed, SciELO"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "PubMed, SciELO",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.384",
@@ -1119,8 +1195,9 @@
     "Palavras-chave": "Mediação Informacional, Produção científica, Tendências de Pesquisas",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Biblioteca Digital Brasileira de Teses e Dissertações (BDTD)"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Biblioteca Digital Brasileira de Teses e Dissertações (BDTD)",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.388",
@@ -1129,8 +1206,9 @@
     "Palavras-chave": "BENANCIB, Organização da Informação, Anais de eventos, Metadados",
     "Ferramenta utilizada": "Open Journal Systems (OJS)",
     "Identifica a ferramenta?": "Sim",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "BENANCIB",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.389",
@@ -1140,7 +1218,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.390",
@@ -1149,8 +1228,9 @@
     "Palavras-chave": "Gestão do Conhecimento, Ciência da Informação, Tecnologias",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.391",
@@ -1159,8 +1239,9 @@
     "Palavras-chave": "Doença de Alzheimer, Agendas de Pesquisa em Saúde, América Latina e Caribe, Coocorrência de palavras-chave",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.394",
@@ -1169,8 +1250,9 @@
     "Palavras-chave": "Biblioteca inclusiva, Biblioteca assistiva, Inclusão social, Diversidade, Pcd-Pessoa com deficiência.",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Brapci"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "WoS, BRAPCI",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.396",
@@ -1180,7 +1262,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portal Oasisbr"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Portal Oasisbr",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.397",
@@ -1208,9 +1291,10 @@
     "Autoria": "Fábio Castro Gouveia",
     "Palavras-chave": "Internacionalização, Dimensions, Library and Information Studies, Termos em títulos e resumos, Análise de co-ocorrência.",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.400",
@@ -1237,10 +1321,11 @@
     "Título": "Differences in Citation Prediction for two Scopus/Wos-indexed Business Journals: the Journal Editors’ Perspective",
     "Autoria": "Carlos Vílchez-Román, Ronaldo Ferreira de Araujo",
     "Palavras-chave": "Document-level citation, Business journals, Negative binomial regression",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
+    "Ferramenta utilizada": "Negative binomial regression",
+    "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, WoS",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.403",
@@ -1260,8 +1345,9 @@
     "Palavras-chave": "Estatutos, Associações, Bibliometria",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Centro de Memória da Amazônia da Universidade Federal do Pará, Arquivo Público do Pará"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Centro de Memória da Amazônia da UFPA, Arquivo Público do Pará",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.406",
@@ -1279,9 +1365,10 @@
     "Autoria": "Júlia Silva Rodrigues, Tamie Aline Lança, Ednéia Silva Santos Rocha",
     "Palavras-chave": "Leis bibliométricas, Jurimetria, Bibliometria, Indicadores bibliométricos, Shepard’s Citations",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.408",
@@ -1289,9 +1376,10 @@
     "Autoria": "Raquel Viana, João de Melo Maricato, Marilia Freitas",
     "Palavras-chave": "Rankings universitários, Correlação, THE, ARWU, QS",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "THE, ARWU, QS"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "THE, ARWU, QS",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.409",
@@ -1299,9 +1387,10 @@
     "Autoria": "Leilah Santiago Bufrem, Natanael Vitor Sobral",
     "Palavras-chave": "Bolsistas de Produtividade em Pesquisa, Práticas de Citação, Transgeracionalidade, Produção Científica, Bibliometria",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CNPq"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.410",
@@ -1311,7 +1400,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.411",
@@ -1321,7 +1411,8 @@
     "Ferramenta utilizada": "Levenshtein",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.412",
@@ -1331,7 +1422,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Retraction Database, Plataforma Lattes"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Retraction Database, Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.413",
@@ -1351,7 +1443,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Anais do Encontro Brasileiro de Malacologia"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Anais do Encontro Brasileiro de Malacologia",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.416",
@@ -1370,8 +1463,9 @@
     "Palavras-chave": "Periódicos científicos domésticos, Análise de citação, Indicadores em nível de país",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477/ix.ebbc.419",

@@ -28,8 +28,9 @@
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "BRAPCI",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.115",
@@ -39,7 +40,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CNPq"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CNPq",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.116",
@@ -59,8 +61,9 @@
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "RCAAP"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "RCAAP",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.119",
@@ -69,8 +72,9 @@
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.121",
@@ -101,8 +105,9 @@
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "UFSC"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.124",
@@ -121,19 +126,21 @@
     "Autoria": "Ana Carolina do Amaral Pitta, Elaine Teixeira Rabello, Fabio Castro Gouveia",
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.126",
     "Título": "Estudo dos principais tópicos de pesquisa no Brasil com adoção de técnicas de análises de redes sociais",
     "Autoria": "Jether Oliveira Gomes, Thiago Magela Rodrigues Dias, Gray Farias Moita, Patricia Mascarenhas Dias",
     "Palavras-chave": "",
-    "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes"
+    "Ferramenta utilizada": "Análise de Redes Sociais",
+    "Identifica a ferramenta?": "Sim",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.127",
@@ -141,9 +148,10 @@
     "Autoria": "Tatiana Brandao Fernandes, Fernando Simão e Silva, Bruno Martins do Carmo",
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.129",
@@ -151,9 +159,10 @@
     "Autoria": "Rafael Silva da Câmara, Edvaldo Carvalho Alves, Leilah Santiago Bufrem",
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.131",
@@ -172,9 +181,10 @@
     "Autoria": "Natanael Vitor Sobral, Gillian Leandro de Queiroga Lima, Ana Sara Pereira de Melo",
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.133",
@@ -182,9 +192,10 @@
     "Autoria": "Angelina Pereira da Silva, Jacqueline Leta",
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.128",
@@ -192,9 +203,10 @@
     "Autoria": "Simone Santos de Freitas, Cleiton da Mota de Souza, Layde Dayelle dos Santo Queiroz, Felipe de Jesus Padilha",
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.1336",
@@ -202,9 +214,10 @@
     "Autoria": "Roberto Mario Lovón Canchumani",
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.137",
@@ -236,17 +249,19 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, SciELO, Scopus, Dimensions"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, SciELO, Scopus, Dimensions",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.140",
     "Título": "Ferramentas de análise de dados altmétricos:  um relato de experiência",
     "Autoria": "Vildeane da Rocha Borba, Sônia Elisa Caregnato",
     "Palavras-chave": "",
-    "Ferramenta utilizada": "N/A",
+    "Ferramenta utilizada": "Facebook, Twitter",
     "Identifica a ferramenta?": "Sim",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.143",
@@ -256,7 +271,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Web of Science, Google Acadêmico"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus, Web of Science, Google Acadêmico",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.144",
@@ -266,7 +282,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus, Ranking de Leiden"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science, Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.145",
@@ -286,8 +303,9 @@
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dimensions",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.148",
@@ -308,7 +326,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.149",
@@ -351,7 +370,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.154",
@@ -361,7 +381,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scientometrics"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.159",
@@ -371,7 +392,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Cadernos Pagu"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.156",
@@ -381,7 +403,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CNPq"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "CNPq",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.160",
@@ -400,9 +423,10 @@
     "Autoria": "Aline Santana do Nascimento Pereira, Sonia Aguiar Cruz-Riascos de Andrade, Thiago Henrique da Silva Brito",
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "N/A",
+    "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.168",
@@ -412,7 +436,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Instituto Butantan"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.169",
@@ -455,7 +480,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.178",
@@ -465,7 +491,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes, Plataforma Sucupira, Portal ISSN"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes, Plataforma Sucupira, Portal ISSN",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.177",
@@ -495,9 +522,10 @@
     "Autoria": "Gleice Helena da Silva, Fábio Mascarenhas e Silva",
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
-    "Identifica a ferramenta?": "Não",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Identifica a ferramenta?": "N/A",
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.182",
@@ -562,7 +590,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Censo da educação superior"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.189",
@@ -594,7 +623,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.191",
@@ -623,10 +653,11 @@
     "Título": "A evolução da pesquisa em Ciência da Informação: uma análise de três revistas internacionais por topic modeling usando LDA",
     "Autoria": "Luciano Rossi, Fabio Castro Gouveia, Jesus Pascual Mena-Chalco",
     "Palavras-chave": "",
-    "Ferramenta utilizada": "LDA (Latent Dirichlet Allocation)",
+    "Ferramenta utilizada": "LDA",
     "Identifica a ferramenta?": "Sim",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Periódicos internacionais",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.196",
@@ -636,7 +667,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "IBGE"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "IBGE",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.198",
@@ -667,7 +699,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Dados de orientações",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.199",
@@ -698,7 +731,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Qualis CAPES"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Periódicos brasileiros Qualis A1 e A2",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.203",
@@ -719,7 +753,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ENANCIB"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Enancib",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.204",
@@ -729,7 +764,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "UFSCAR"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "UFSCAR",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.205",
@@ -761,7 +797,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ENANCIB"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Enancib",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.208",
@@ -771,7 +808,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "ENANCIB"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Enancib",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.209",
@@ -781,7 +819,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "Não",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Biblioteca Comunitária (UFSCar)"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Biblioteca Comunitária da Universidade Federal de São Carlos",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.210",
@@ -791,7 +830,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Scopus",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.211",
@@ -801,7 +841,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Repositório Institucional da UFAM"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "RIU/UFAM",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.212",
@@ -811,7 +852,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Anais de eventos"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Anais de eventos nacionais",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.213",
@@ -821,7 +863,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Teses e dissertações"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.214",
@@ -831,7 +874,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "INPI"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "INPI",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.215",
@@ -841,7 +885,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.216",
@@ -851,7 +896,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Capes"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Capes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.217",
@@ -861,7 +907,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Plataforma Lattes",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.218",
@@ -871,7 +918,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci, Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Brapci, Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.220",
@@ -891,8 +939,9 @@
     "Palavras-chave": "",
     "Ferramenta utilizada": "M2N, VantagePoint, Gephi, VOSviewer",
     "Identifica a ferramenta?": "Sim",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados, análise dos dados, visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "análise dos dados, visualização - gerar gráficos",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.22",
@@ -902,7 +951,8 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Web of Science",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.223",
@@ -911,8 +961,9 @@
     "Palavras-chave": "",
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "visualização - gerar gráficos",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "UFAM"
+    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Trabalhos de Conclusão de Curso (TCCs) da Universidade Federal do Amazonas (UFAM)",
+    "_refined": true
   },
   {
     "DOI": "https://doi.org/10.22477.224",
@@ -933,6 +984,7 @@
     "Ferramenta utilizada": "N/A",
     "Identifica a ferramenta?": "N/A",
     "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "N/A",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Zenodo"
+    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "Zenodo",
+    "_refined": true
   }
 ]
