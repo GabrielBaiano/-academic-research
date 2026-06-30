@@ -584,17 +584,6 @@
     "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "MEDLINE"
   },
   {
-    "DOI": "https://doi.org/10.1162/qss_a_00181",
-    "Título": "Traffic Noise, Hazardous noise level, Kurnool city, NIHL, Ambient Noise level, Health education, Sound level meter.",
-    "Autoria": "C. Sunil Kumar, Salman Ahmed, M. Mahendra Kumar, H N Champa, M.S. Prakash Rao, Gulnaz Hameed",
-    "Palavras-chave": "Sound level meter, Noise (video), Noise level, Hazardous waste, Ambient noise level, Metre, Noise exposure, Environmental science, Background noise, Traffic noise, Acoustics, Sound (geography), Hearing loss, Audiology, Engineering, Medicine, Computer science, Noise reduction, Physics, Waste management",
-    "Ferramenta utilizada": "Sound level meter",
-    "Identifica a ferramenta?": "Sim",
-    "Onde usou (coleta dos dados, análise dos dados ou visualização - gerar gráficos)": "coleta dos dados",
-    "Fonte de coleta de dados (da onde o pesquisador tirou a informação?)": "N/A",
-    "_refined": true
-  },
-  {
     "DOI": "https://doi.org/10.1162/qss_a_00186",
     "Título": "See further upon the giants: Quantifying intellectual lineage in science",
     "Autoria": "Woo Seong Jo, Lu Liu, Dashun Wang",
