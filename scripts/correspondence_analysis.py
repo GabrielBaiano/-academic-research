@@ -206,22 +206,25 @@ def run_ca_and_plot(df_pairs, tools_to_keep, sources_to_keep, output_path, artif
     col_labels = contingency_table.columns.tolist()
     
     plt.style.use('seaborn-v0_8-whitegrid')
-    fig, ax = plt.subplots(figsize=(10, 8), dpi=300)
+    fig, ax = plt.subplots(figsize=(12, 10), dpi=300)
     
     ax.axhline(0, color='gray', linestyle='--', linewidth=0.8, alpha=0.7)
     ax.axvline(0, color='gray', linestyle='--', linewidth=0.8, alpha=0.7)
     
     # Plotar
-    ax.scatter(row_coords[:, 0], row_coords[:, 1], color='#1f77b4', marker='o', s=120, label='Ferramentas', edgecolors='black', linewidth=0.8, zorder=3)
-    ax.scatter(col_coords[:, 0], col_coords[:, 1], color='#ff7f0e', marker='s', s=120, label='Fontes de Dados', edgecolors='black', linewidth=0.8, zorder=3)
+    ax.scatter(row_coords[:, 0], row_coords[:, 1], color='#1f77b4', marker='o', s=100, label='Ferramentas', edgecolors='black', linewidth=0.8, zorder=3)
+    ax.scatter(col_coords[:, 0], col_coords[:, 1], color='#ff7f0e', marker='s', s=100, label='Fontes de Dados', edgecolors='black', linewidth=0.8, zorder=3)
     
     texts = []
     for i, label in enumerate(row_labels):
-        texts.append(ax.text(row_coords[i, 0], row_coords[i, 1], label, fontsize=10, weight='bold', color='#0f3a5f'))
+        texts.append(ax.text(row_coords[i, 0], row_coords[i, 1], label, fontsize=9, weight='bold', color='#0f3a5f'))
     for j, label in enumerate(col_labels):
-        texts.append(ax.text(col_coords[j, 0], col_coords[j, 1], label, fontsize=10, weight='bold', color='#8c3d00'))
+        texts.append(ax.text(col_coords[j, 0], col_coords[j, 1], label, fontsize=9, weight='bold', color='#8c3d00'))
         
-    adjust_text(texts, arrowprops=dict(arrowstyle="-", color='gray', lw=0.5, alpha=0.6))
+    adjust_text(texts, 
+                expand=(1.4, 1.6), 
+                force_text=(0.2, 0.4),
+                arrowprops=dict(arrowstyle="->", color='gray', lw=0.6, alpha=0.7))
     
     ax.set_title(f"Mapa de Associação ({title}): Ferramentas vs. Fontes de Dados\n(Análise de Correspondência - CA)", fontsize=13, weight='bold', pad=15, color='#2c3e50')
     
