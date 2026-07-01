@@ -32,12 +32,22 @@ graph TD
 
 ---
 
-## ⚡ Recursos de Robustez e Otimização
+## ⚡ Curadoria por IA e Segurança Operacional
 
-O pipeline foi projetado para ser resiliente a falhas e eficiente no consumo de recursos:
-* **Persistência Intermediária (Gravação em Lote):** O progresso da classificação do Gemini é salvo nos arquivos JSON correspondentes após cada lote de 10 artigos processados com sucesso. Se a execução for interrompida (por exemplo, queda de energia, cancelamento ou falha de rede), o progresso é preservado e a execução continuará exatamente de onde parou na próxima rodada.
-* **Paginação Automática no OpenAlex:** Toda a extração e mapeamento de metadados que consulta a API do OpenAlex (volumes do QSS) agora utiliza paginação dinâmica inteligente. Isso garante que nenhum artigo seja omitido do dataset consolidado, mesmo que o volume consultado ultrapasse o limite de registros por requisição.
-* **Filtro Aprimorado para Linguagem R:** A expressão regular de primeira passagem que identifica o uso do "R" foi otimizada para capturar variações metodológicas comuns (ex: `uses R`, `using R`, `in R`, `R packages`, `R-based`, `R (version...)`), reduzindo os falsos negativos e diminuindo a quantidade de requisições de fallback enviadas à API do Gemini.
+Para garantir uma classificação de alta precisão científica sem comprometer a estabilidade do sistema ou gerar desperdício de recursos, o pipeline foi desenhado com técnicas avançadas de engenharia de software e segurança operacional:
+
+### 1. Curadoria Semântica com Gemini API (`gemini-flash-lite-latest`)
+O modelo da Google é alimentado com o resumo (*abstract*) do artigo. Ele analisa o contexto acadêmico e identifica:
+* **Uso Real de Ferramentas:** Diferencia se um autor apenas *citou* um software ou se ele *realmente o utilizou* para obter os resultados.
+* **Contexto de Aplicação:** Mapeia se a ferramenta foi usada na coleta de dados, na análise estatística ou na visualização (gráficos/redes).
+* **Fontes de Dados:** Identifica de onde os dados empíricos foram extraídos (ex: Scopus, Lattes, Crossref, bases de patentes).
+
+### 2. Técnicas de Segurança e Resiliência Operacional
+* **Saída Estruturada via JSON Schema (Segurança de Parse):** Forçamos a API do Gemini a responder **estritamente em formato JSON estruturado** com chaves predefinidas. Isso elimina qualquer risco de o modelo "alucinar" textos livres ou responder em formatos inválidos, tornando a inserção de metadados 100% segura para os scripts de consolidação.
+* **Persistência Intermediária em Lotes (Batch Saving):** A cada lote de 10 artigos analisados pela IA, os dados são salvos em disco sobrescrevendo os arquivos JSON originais. Em caso de interrupção inesperada (queda de rede, estouro de cota ou interrupção do console), nenhum progresso ou token é desperdiçado: o pipeline continua exatamente do último ponto salvo.
+* **Cache Local de Resumos (Fair Use e Polidez):** A extração de resumos de portais universitários (como o OJS do EBBC) é cacheada localmente na pasta `datasets/cache/`. Isso evita sobrecarga de requisições repetidas nos servidores das universidades (respeitando as regras de *web scraping* ético) e acelera execuções subsequentes a tempo zero.
+* **Filtros Híbridos de Pré-Processamento:** Antes de acionar a API do Gemini, o script executa uma análise local via expressões regulares (regex) aprimoradas para detectar usos explícitos e óbvios de linguagens de programação (como R e Python). Isso economiza custos de processamento ao evitar chamadas de API desnecessárias para casos triviais.
+* **Paginação Inteligente (OpenAlex):** O pipeline lida com grandes volumes de artigos (QSS) implementando paginação inteligente na API do OpenAlex, garantindo que nenhum metadado de artigo seja omitido ou truncado por limites de requisição.
 
 ---
 

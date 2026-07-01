@@ -32,12 +32,22 @@ graph TD
 
 ---
 
-## ⚡ Robustness and Optimization Features
+## ⚡ AI Curation & Operational Safety
 
-The pipeline is designed to be resilient to failures and highly efficient:
-* **Intermediate Persistence (Batch Saving):** Curation progress from the Gemini API is written back to the respective JSON files after every single batch of 10 articles is successfully processed. If the execution is interrupted (e.g., power loss, rate limit, network drop), progress is preserved and the execution resumes seamlessly from where it left off.
-* **Automated OpenAlex Pagination:** All data extraction querying the OpenAlex API (QSS volumes) now runs with dynamic paginated requests. This ensures complete coverage for volumes with large numbers of articles, going beyond the single-page request limits.
-* **Enhanced R Language Regex:** The initial regex match for R was refined to detect common variations (e.g., `uses R`, `using R`, `in R`, `R packages`, `R-based`, `R (version...)`), significantly decreasing false negatives before triggering the AI fallback.
+To ensure high scientific classification accuracy without compromising system stability or wasting computing resources, the pipeline has been designed incorporating advanced software engineering and operational safety techniques:
+
+### 1. Semantic Curation via Gemini API (`gemini-flash-lite-latest`)
+The Google AI model receives the article's *abstract* and analyzes the academic context to identify:
+* **Active Tool Utilization:** Differentiates whether an author merely *mentioned* a software tool or *actually used* it to obtain their results.
+* **Context of Application:** Classifies whether the tool was used in data collection, statistical analysis, or visualization (graphs/networks).
+* **Data Sources:** Maps from which database or repository the empirical research data was gathered (e.g., Scopus, Lattes, Crossref, Patent databases).
+
+### 2. Security and Operational Resilience Techniques
+* **Structured Output via JSON Schema (Safe Parsing):** We enforce the Gemini API to respond **strictly in a structured JSON format** using a predefined JSON Schema. This eliminates any risk of the model "hallucinating" free-form text or returning unparseable syntax, ensuring that data insertion is 100% safe for consolidation scripts.
+* **Intermediate Batch Persistence (Batch Saving):** Every batch of 10 articles processed by the AI is written directly to disk, overwriting the original JSON files. In case of unexpected connection loss, rate limit issues, or console terminations, no progress or API tokens are wasted: the pipeline resumes exactly from where it left off.
+* **Local Abstracts Caching (Politeness & Fair Use):** Extracting abstracts from university journal platforms (such as the EBBC OJS portal) is cached locally under `datasets/cache/`. This avoids overloading university servers (adhering to ethical web scraping guidelines) and accelerates subsequent executions.
+* **Hybrid Pre-processing Filters:** Prior to calling the Gemini API, the script performs a local check using optimized regular expressions (regex) to detect clear and obvious programming language usage (such as Python and R). This saves processing time and API tokens for trivial cases.
+* **Intelligent Pagination (OpenAlex):** The pipeline handles large volumes of articles (QSS) by implementing smart pagination on the OpenAlex API, ensuring no articles are skipped or truncated.
 
 ---
 
