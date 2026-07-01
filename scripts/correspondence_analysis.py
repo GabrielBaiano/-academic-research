@@ -10,8 +10,9 @@ from adjustText import adjust_text
 # Definir caminhos
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATASETS_PATH = os.path.join(ROOT_DIR, "datasets", "*_data.json")
-OUTPUT_IMAGE = os.path.join(ROOT_DIR, "ca_biplot.png")
-ARTIFACTS_IMAGE = "/home/gabrielgama/.gemini/antigravity/brain/32df1f7d-817b-4130-b656-b7cd7fcabf46/ca_biplot.png"
+
+# Diretório dos artefatos
+ART_DIR = "/home/gabrielgama/.gemini/antigravity/brain/32df1f7d-817b-4130-b656-b7cd7fcabf46"
 
 def map_tool(clean_text):
     text = clean_text.lower()
@@ -99,31 +100,15 @@ def clean_and_split(text):
             parts.append(clean)
     return parts
 
-def main():
-    print("[Análise] Carregando datasets...")
-    all_papers = []
-    
-    for filepath in glob.glob(DATASETS_PATH):
-        with open(filepath, "r", encoding="utf-8") as f:
-            try:
-                data = json.load(f)
-                all_papers.extend(data)
-            except Exception as e:
-                print(f"[Aviso] Falha ao ler {os.path.basename(filepath)}: {e}")
-                
-    print(f"[Análise] Total de artigos carregados: {len(all_papers)}")
-    
-    # Coletar pares co-ocorrentes
+def extract_pairs(papers):
     co_occurrences = []
-    
-    for paper in all_papers:
+    for paper in papers:
         tools_raw = paper.get("Ferramenta utilizada", "N/A")
         sources_raw = paper.get("Fonte de coleta de dados (da onde o pesquisador tirou a informação?)", "N/A")
         
         tools_list = clean_and_split(tools_raw)
         sources_list = clean_and_split(sources_raw)
         
-        # Mapear e filtrar termos conhecidos de forma flexível/robusta
         mapped_tools = []
         for t in tools_list:
             mapped_t = map_tool(t)
@@ -136,39 +121,37 @@ def main():
             if mapped_s:
                 mapped_sources.append(mapped_s)
                 
-        # Garantir unicidade dentro do mesmo artigo
         mapped_tools = list(set(mapped_tools))
         mapped_sources = list(set(mapped_sources))
         
-        # Gerar pares
         for t in mapped_tools:
             for s in mapped_sources:
                 co_occurrences.append((t, s))
-                
-    print(f"[Análise] Total de pares (Ferramenta, Fonte) extraídos: {len(co_occurrences)}")
-    
-    if not co_occurrences:
-        print("[Erro] Nenhum par de (Ferramenta, Fonte) encontrado para a análise!")
+    return co_occurrences
+
+def run_ca_and_plot(df_pairs, tools_to_keep, sources_to_keep, output_path, artifacts_path, title):
+    if df_pairs.empty:
+        print(f"[Erro] Sem dados para gerar CA para {title}!")
         return
-        
-    df_pairs = pd.DataFrame(co_occurrences, columns=["Ferramenta", "Fonte"])
-    
+
     # Montar tabela de contingência
     contingency_table = pd.crosstab(df_pairs["Ferramenta"], df_pairs["Fonte"])
     
-    # Filtrar para manter apenas o componente principal conectado e evitar distorções de outliers perfeitamente isolados
-    tools_to_keep = ['VOSviewer', 'Python', 'ScriptLattes', 'IRaMuTeQ', 'UCINET', 'SciVal', 'Excel', 'Bibliometrix (R)', 'Pajek', 'Altmetric']
-    sources_to_keep = ['Scopus', 'Web of Science', 'Plataforma Lattes', 'CNPq', 'Brapci', 'SciELO', 'OpenAlex']
+    # Filtrar
+    valid_tools = [t for t in tools_to_keep if t in contingency_table.index]
+    valid_sources = [s for s in sources_to_keep if s in contingency_table.columns]
     
-    tools_to_keep = [t for t in tools_to_keep if t in contingency_table.index]
-    sources_to_keep = [s for s in sources_to_keep if s in contingency_table.columns]
+    contingency_table = contingency_table.loc[valid_tools, valid_sources]
     
-    contingency_table = contingency_table.loc[tools_to_keep, sources_to_keep]
-    
-    print(f"[Análise] Tabela de contingência filtrada (tamanho {contingency_table.shape}):")
+    # Se a tabela for muito pequena ou vazia, avisar e pular
+    if contingency_table.empty or contingency_table.shape[0] < 2 or contingency_table.shape[1] < 2:
+        print(f"[Aviso] Tabela de contingência para {title} é muito pequena ({contingency_table.shape}) para análise de correspondência!")
+        return
+        
+    print(f"\n[Análise] Tabela de contingência para {title} (tamanho {contingency_table.shape}):")
     print(contingency_table)
     
-    # --- Algoritmo de Análise de Correspondência (CA) ---
+    # Algoritmo CA
     N = contingency_table.values
     grand_total = N.sum()
     P = N / grand_total
@@ -176,81 +159,139 @@ def main():
     r = P.sum(axis=1)
     c = P.sum(axis=0)
     
-    # Impedir divisões por zero em colunas/linhas vazias
     r[r == 0] = 1e-10
     c[c == 0] = 1e-10
     
     Dr_inv_sqrt = np.diag(1.0 / np.sqrt(r))
     Dc_inv_sqrt = np.diag(1.0 / np.sqrt(c))
     
-    # Matriz de resíduos padronizados
     S = Dr_inv_sqrt @ (P - np.outer(r, c)) @ Dc_inv_sqrt
-    
-    # Decomposição em Valores Singulares (SVD)
     U, S_vals, Vt = np.linalg.svd(S, full_matrices=False)
     
-    # Cálculo das inércias (autovalores) e variância explicada
     inertias = S_vals ** 2
     total_inertia = inertias.sum()
     var_explained = (inertias / total_inertia) * 100
     
-    print(f"\n[Análise] Inércia Total: {total_inertia:.4f}")
-    for idx, var in enumerate(var_explained):
-        if idx < len(var_explained):
-            print(f"  Dimensão {idx+1}: {var:.2f}% de inércia explicada")
+    print(f"  Inércia Total: {total_inertia:.4f}")
+    if len(var_explained) > 0:
+        print(f"  Dimensão 1: {var_explained[0]:.2f}% de inércia explicada")
+    if len(var_explained) > 1:
+        print(f"  Dimensão 2: {var_explained[1]:.2f}% de inércia explicada")
         
-    # Coordenadas principais das linhas (Ferramentas) e colunas (Fontes)
     row_coords = Dr_inv_sqrt @ U @ np.diag(S_vals)
     col_coords = Dc_inv_sqrt @ Vt.T @ np.diag(S_vals)
     
-    # Obter os nomes das categorias
     row_labels = contingency_table.index.tolist()
     col_labels = contingency_table.columns.tolist()
     
-    # --- Plotagem Gráfica (Biplot Simétrico) ---
     plt.style.use('seaborn-v0_8-whitegrid')
     fig, ax = plt.subplots(figsize=(10, 8), dpi=300)
     
-    # Eixos de referência (linhas tracejadas em x=0 e y=0)
     ax.axhline(0, color='gray', linestyle='--', linewidth=0.8, alpha=0.7)
     ax.axvline(0, color='gray', linestyle='--', linewidth=0.8, alpha=0.7)
     
-    # Plotar Ferramentas (Linhas) - Azul Royal
+    # Plotar
     ax.scatter(row_coords[:, 0], row_coords[:, 1], color='#1f77b4', marker='o', s=120, label='Ferramentas', edgecolors='black', linewidth=0.8, zorder=3)
-    # Plotar Fontes de Dados (Colunas) - Laranja Coral
     ax.scatter(col_coords[:, 0], col_coords[:, 1], color='#ff7f0e', marker='s', s=120, label='Fontes de Dados', edgecolors='black', linewidth=0.8, zorder=3)
     
-    # Adicionar rótulos de texto
     texts = []
     for i, label in enumerate(row_labels):
         texts.append(ax.text(row_coords[i, 0], row_coords[i, 1], label, fontsize=10, weight='bold', color='#0f3a5f'))
-        
     for j, label in enumerate(col_labels):
         texts.append(ax.text(col_coords[j, 0], col_coords[j, 1], label, fontsize=10, weight='bold', color='#8c3d00'))
         
-    # Ajustar as posições para evitar sobreposição de texto
-    print("[Análise] Ajustando posições dos rótulos de texto...")
     adjust_text(texts, arrowprops=dict(arrowstyle="-", color='gray', lw=0.5, alpha=0.6))
     
-    # Estilização Premium do Gráfico
-    ax.set_title("Mapa de Associação: Ferramentas vs. Fontes de Dados\n(Análise de Correspondência - CA)", fontsize=14, weight='bold', pad=15, color='#2c3e50')
-    ax.set_xlabel(f"Dimensão 1 ({var_explained[0]:.1f}%)", fontsize=11, labelpad=10, color='#2c3e50')
-    ax.set_ylabel(f"Dimensão 2 ({var_explained[1]:.1f}%)", fontsize=11, labelpad=10, color='#2c3e50')
+    ax.set_title(f"Mapa de Associação ({title}): Ferramentas vs. Fontes de Dados\n(Análise de Correspondência - CA)", fontsize=13, weight='bold', pad=15, color='#2c3e50')
     
-    # Configurar legenda bonita no canto inferior esquerdo (onde não há dados para evitar sobreposição)
+    dim1_lbl = f"Dimensão 1 ({var_explained[0]:.1f}%)" if len(var_explained) > 0 else "Dimensão 1"
+    dim2_lbl = f"Dimensão 2 ({var_explained[1]:.1f}%)" if len(var_explained) > 1 else "Dimensão 2"
+    ax.set_xlabel(dim1_lbl, fontsize=11, labelpad=10, color='#2c3e50')
+    ax.set_ylabel(dim2_lbl, fontsize=11, labelpad=10, color='#2c3e50')
+    
+    # Configurar legenda no canto inferior esquerdo para evitar sobreposição
     ax.legend(frameon=True, facecolor='white', edgecolor='#e2e8f0', fontsize=10, loc='lower left')
     
-    # Margens e layout
     plt.tight_layout()
-    
-    # Salvar nos destinos
-    plt.savefig(OUTPUT_IMAGE, bbox_inches='tight')
-    plt.savefig(ARTIFACTS_IMAGE, bbox_inches='tight')
+    plt.savefig(output_path, bbox_inches='tight')
+    plt.savefig(artifacts_path, bbox_inches='tight')
     plt.close()
     
-    print(f"[Análise] Mapa gerado com sucesso!")
-    print(f"  -> Salvo localmente em: {OUTPUT_IMAGE}")
-    print(f"  -> Salvo nos artefatos em: {ARTIFACTS_IMAGE}")
+    print(f"  -> Mapa gerado com sucesso!")
+    print(f"     Salvo em: {output_path}")
+    print(f"     Salvo nos artefatos em: {artifacts_path}")
+
+def main():
+    print("[Análise] Carregando datasets...")
+    qss_papers = []
+    ebbc_papers = []
+    
+    for filepath in glob.glob(DATASETS_PATH):
+        filename = os.path.basename(filepath)
+        with open(filepath, "r", encoding="utf-8") as f:
+            try:
+                data = json.load(f)
+                if "qss" in filename.lower():
+                    qss_papers.extend(data)
+                elif "ebbc" in filename.lower():
+                    ebbc_papers.extend(data)
+            except Exception as e:
+                print(f"[Aviso] Falha ao ler {filename}: {e}")
+                
+    print(f"[Análise] Total de artigos carregados:")
+    print(f"  QSS: {len(qss_papers)}")
+    print(f"  EBBC: {len(ebbc_papers)}")
+    print(f"  Total: {len(qss_papers) + len(ebbc_papers)}")
+    
+    # Extrair pares
+    qss_pairs = extract_pairs(qss_papers)
+    ebbc_pairs = extract_pairs(ebbc_papers)
+    combined_pairs = qss_pairs + ebbc_pairs
+    
+    df_qss = pd.DataFrame(qss_pairs, columns=["Ferramenta", "Fonte"])
+    df_ebbc = pd.DataFrame(ebbc_pairs, columns=["Ferramenta", "Fonte"])
+    df_combined = pd.DataFrame(combined_pairs, columns=["Ferramenta", "Fonte"])
+    
+    # Listas de categorias a incluir em cada tipo de gráfico
+    # 1. COMBINADO
+    tools_combined = ['VOSviewer', 'Python', 'ScriptLattes', 'IRaMuTeQ', 'UCINET', 'SciVal', 'Excel', 'Bibliometrix (R)', 'Pajek', 'Altmetric']
+    sources_combined = ['Scopus', 'Web of Science', 'Plataforma Lattes', 'CNPq', 'Brapci', 'SciELO', 'OpenAlex']
+    
+    # 2. EBBC (focando no componente conectado principal para evitar distorção por outliers como Gephi/Twitter)
+    tools_ebbc = ['VOSviewer', 'Python', 'ScriptLattes', 'IRaMuTeQ', 'UCINET', 'SciVal', 'Excel', 'Bibliometrix (R)', 'Pajek', 'Altmetric']
+    sources_ebbc = ['Scopus', 'Web of Science', 'Plataforma Lattes', 'CNPq', 'Brapci', 'SciELO', 'OpenAlex']
+    
+    # 3. QSS (como tem poucos pares, mantemos todos os disponíveis que co-ocorrem pelo menos 1 vez)
+    tools_qss = ['Altmetric', 'Crossref', 'Dimensions', 'Excel', 'OpenAlex']
+    sources_qss = ['Crossref', 'Dimensions', 'Scopus', 'Web of Science']
+    
+    # --- Executar Análises ---
+    
+    # A. Combined (Salva em ca_biplot_combined.png e também no ca_biplot.png para compatibilidade)
+    print("\n--- PROCESSANDO DATASET COMBINADO ---")
+    run_ca_and_plot(df_combined, tools_combined, sources_combined, 
+                    os.path.join(ROOT_DIR, "ca_biplot_combined.png"), 
+                    os.path.join(ART_DIR, "ca_biplot_combined.png"), 
+                    "Combinado QSS + EBBC")
+    # Copiar para ca_biplot.png original
+    run_ca_and_plot(df_combined, tools_combined, sources_combined, 
+                    os.path.join(ROOT_DIR, "ca_biplot.png"), 
+                    os.path.join(ART_DIR, "ca_biplot.png"), 
+                    "Combinado")
+
+    # B. EBBC Only
+    print("\n--- PROCESSANDO DATASET EBBC (NACIONAL) ---")
+    run_ca_and_plot(df_ebbc, tools_ebbc, sources_ebbc, 
+                    os.path.join(ROOT_DIR, "ca_biplot_ebbc.png"), 
+                    os.path.join(ART_DIR, "ca_biplot_ebbc.png"), 
+                    "EBBC Nacional")
+
+    # C. QSS Only
+    print("\n--- PROCESSANDO DATASET QSS (INTERNACIONAL) ---")
+    run_ca_and_plot(df_qss, tools_qss, sources_qss, 
+                    os.path.join(ROOT_DIR, "ca_biplot_qss.png"), 
+                    os.path.join(ART_DIR, "ca_biplot_qss.png"), 
+                    "QSS Internacional")
 
 if __name__ == "__main__":
     main()
