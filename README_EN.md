@@ -69,9 +69,15 @@ The analysis automatically filters out isolated niche tautologies (such as Altme
    * **National R Ecosystem**: IRaMuTeQ closely linked to national/local databases (Brapci, CNPq).
    * **Global Scientometric Core**: Where visual tools (VOSviewer, Bibliometrix) and development ecosystems (Python/ML, R/Stats) orbit around major global databases.
 
+   ![Combined Map](ca_biplot_combined.png)
+
 2. **National Map (EBBC)**: Highlights a strong preference for ready-to-use software applications (VOSviewer, Pajek, SciVal, Bibliometrix) applied within Brazilian research and training infrastructures (Lattes, Brapci, Sucupira).
 
+   ![National Map (EBBC)](ca_biplot_ebbc.png)
+
 3. **International Map (QSS)**: Shows a landscape dominated by programmable environments and algorithms. **Python/ML** acts as a central hub connecting NLP models (Transformers/LLMs) to preprint repositories, while the ecosystems of **Dimensions**, **OpenAlex**, and **Crossref** structure themselves vertically and integrate directly with their respective APIs.
+
+   ![International Map (QSS)](ca_biplot_qss.png)
 
 ---
 

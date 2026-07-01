@@ -141,6 +141,3 @@ cython_debug/
 # OS metadata
 .DS_Store
 Thumbs.db
-
-# Correspondence Analysis Output Plots
-ca_biplot*.png

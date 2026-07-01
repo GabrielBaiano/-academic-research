@@ -69,9 +69,15 @@ A análise filtra automaticamente tautologias de nicho isolado (como Altmetric) 
    * **Ecossistema R Nacional**: IRaMuTeQ intimamente ligado a bases nacionais/locais (Brapci, CNPq).
    * **Núcleo Cientométrico Global**: Onde ferramentas visuais (VOSviewer, Bibliometrix) e ecossistemas de desenvolvimento (Python/ML, R/Stats) orbitam em torno das grandes bases de dados globais.
 
+   ![Mapa Combinado](ca_biplot_combined.png)
+
 2. **Mapa Nacional (EBBC)**: Evidencia a forte preferência pela aplicação de softwares de prateleira (VOSviewer, Pajek, SciVal, Bibliometrix) aplicados a contextos de infraestrutura e dados brasileiros (Lattes, Brapci, Sucupira).
 
+   ![Mapa Nacional (EBBC)](ca_biplot_ebbc.png)
+
 3. **Mapa Internacional (QSS)**: Mostra um ecossistema dominado por ecossistemas programáveis e algoritmos. O **Python/ML** atua como hub central conectando modelos de processamento de linguagem natural (Transformers/LLMs) a repositórios de preprints, enquanto o ecossistema do **Dimensions**, **OpenAlex** e **Crossref** se estruturam de forma vertical e integrada às suas respectivas APIs.
+
+   ![Mapa Internacional (QSS)](ca_biplot_qss.png)
 
 ---
 
