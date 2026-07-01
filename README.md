@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/1250735260.svg)](https://doi.org/10.5281/zenodo.20638523)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Language: EN](https://img.shields.io/badge/Language-EN-blue.svg)](README_EN.md)
-[![Version: 1.1.0](https://img.shields.io/badge/Version-1.1.0-orange.svg)](https://github.com/gabrielbaiano/-academic-research/releases)
+[![Version: 2.0.0](https://img.shields.io/badge/Version-2.0.0-orange.svg)](https://github.com/gabrielbaiano/-academic-research/releases)
 
 Este diretório contém o pipeline automatizado e inteligente para extração, análise de texto, curadoria semântica e consolidação em planilhas de **todas as publicações científicas** da prestigiada revista **Quantitative Science Studies (QSS)** (Volumes 1 a 6) e do **Encontro Brasileiro de Bibliometria e Cientometria (EBBC)** (anos 2020, 2022 e 2024).
 
@@ -191,7 +191,7 @@ O pipeline possui uma chave pública padrão configurada para execuções inicia
 Se você utilizar este código ou os conjuntos de dados em sua pesquisa, por favor cite como:
 
 **APA:**
-Gama, G. N. (2026). Extrator de Metadados, Classificação Semântica e Curadoria por IA para Quantitative Science Studies (QSS) e EBBC (Versão 1.1.0). Zenodo. https://doi.org/10.5281/zenodo.20638523
+Gama, G. N. (2026). Extrator de Metadados, Classificação Semântica e Curadoria por IA para Quantitative Science Studies (QSS) e EBBC (Versão 2.0.0). Zenodo. https://doi.org/10.5281/zenodo.20638523
 
 **BibTeX:**
 ```bibtex
@@ -201,7 +201,7 @@ Gama, G. N. (2026). Extrator de Metadados, Classificação Semântica e Curadori
   month        = jun,
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {1.1.0},
+  version      = {2.0.0},
   doi          = {10.5281/zenodo.20638523},
   url          = {https://doi.org/10.5281/zenodo.20638523}
 }
