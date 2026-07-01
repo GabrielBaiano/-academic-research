@@ -21,9 +21,9 @@ def map_tool(clean_text):
     if 'gephi' in text:
         return 'Gephi'
     if 'iramuteq' in text:
-        return 'IRaMuTeQ'
+        return 'R / IRaMuTeQ'
     if 'scriptlattes' in text:
-        return 'ScriptLattes'
+        return 'Python / ScriptLattes'
     if 'citespace' in text:
         return 'CiteSpace'
     if 'scival' in text:
@@ -35,34 +35,34 @@ def map_tool(clean_text):
     if 'spss' in text:
         return 'SPSS'
     if 'stata' in text:
-        return 'Stata'
+        return 'R/Stata/SPSS (Stats)'
     if 'bibliometrix' in text or 'biblioshiny' in text:
-        return 'Bibliometrix (R)'
+        return 'R / Bibliometrix'
     if 'excel' in text:
         return 'Excel'
     if 'altmetric' in text:
         return 'Altmetric'
     
     # NLP, Machine Learning e Algoritmos Avançados (Comuns no QSS)
-    if any(x in text for x in ['bert', 'gpt', 'openai', 'llm', 'machine learning', 'gradient boosting', 'random forest', 'naive bayes', 'neural network', 'classification']):
-        return 'Machine Learning & NLP'
-    if any(x in text for x in ['leiden algorithm', 'louvain algorithm', 'pagerank', 'k-core', 'overlapping clusters', 'community detection', 'network analysis', 'aoc']):
+    if any(x in text for x in ['bert', 'gpt', 'openai', 'llm', 'machine learning', 'gradient boosting', 'random forest', 'naive bayes', 'neural network', 'classification', 'fasttext', 'transformers', 'llama', 'mistral', 'deep learning']):
+        return 'Python / Machine Learning & NLP'
+    if any(x in text for x in ['leiden algorithm', 'louvain algorithm', 'pagerank', 'k-core', 'overlapping clusters', 'community detection', 'network analysis', 'aoc', 'node2vec', 'residual2vec']):
         return 'Network & Clustering'
     if any(x in text for x in ['unpaywall', 'openaire', 'opencitations', 'api', 'sparql', 'rest api']):
         return 'Open Science APIs & Graphs'
     if any(x in text for x in ['gender-api', 'genderize', 'namsor', 'ethnicity', 'gender inference']):
         return 'Gender & Name Inference'
-    if any(x in text for x in ['regression', 'factor analysis', 'matching design', 'statistical modeling', 'statistical analysis', 'econometric', 'anova']):
-        return 'Statistical Modeling'
+    if any(x in text for x in ['regression', 'factor analysis', 'matching design', 'statistical modeling', 'statistical analysis', 'econometric', 'anova', 'bayes']):
+        return 'R/Stata/SPSS (Stats)'
     if 'open journal systems' in text or 'ojs' in text:
         return 'OJS (Journal Management)'
     if 'ulrichsweb' in text:
         return 'Ulrichsweb'
     
     if re.search(r'\bpython\b', text):
-        return 'Python'
+        return 'Python / Machine Learning & NLP'
     if re.search(r'\br\b|r-based|r packages|r package|r programming', text):
-        return 'R'
+        return 'R / Bibliometrix'
     if 'crossref' in text:
         return 'Crossref'
     if 'dimensions' in text:
@@ -101,14 +101,28 @@ def map_source(clean_text):
         return 'ORCID'
     if 'overton' in text:
         return 'Overton'
-    if 'arxiv' in text:
-        return 'arXiv'
-    if 'twitter' in text:
-        return 'Twitter'
+    if any(x in text for x in ['arxiv', 'biorxiv', 'medrxiv']):
+        return 'Preprints (arXiv/bioRxiv)'
+    if 'twitter' in text or 'facebook' in text or 'youtube' in text or 'social media' in text:
+        return 'Social Media'
     if 'usproto' in text or 'uspto' in text or 'patent' in text or 'patents' in text:
         return 'Patent Databases'
-    if any(x in text for x in ['openaire', 'opencitations', 'unpaywall']):
+    if any(x in text for x in ['openaire', 'opencitations', 'unpaywall', 'unsub', 'doaj']):
         return 'Open Science APIs & Graphs'
+    if 'sucupira' in text:
+        return 'Plataforma Sucupira'
+    if 'altmetric' in text:
+        return 'Altmetric'
+    if 'wikipedia' in text:
+        return 'Wikipedia'
+    if 'enancib' in text:
+        return 'ENANCIB'
+    if 'capes' in text:
+        return 'CAPES Portal'
+    if 'oasisbr' in text:
+        return 'Oasisbr'
+    if 'lens' in text:
+        return 'The Lens'
     return None
 
 def clean_and_split(text):
@@ -279,30 +293,30 @@ def main():
     # Listas de categorias a incluir em cada tipo de gráfico
     # 1. COMBINADO
     tools_combined = [
-        'VOSviewer', 'Python', 'ScriptLattes', 'IRaMuTeQ', 'UCINET', 'SciVal', 'Excel', 'Bibliometrix (R)', 'Pajek', 'Altmetric',
-        'Machine Learning & NLP', 'Open Science APIs & Graphs', 'Gender & Name Inference', 'Statistical Modeling',
-        'OJS (Journal Management)', 'Ulrichsweb', 'R'
+        'VOSviewer', 'Python / ScriptLattes', 'R / IRaMuTeQ', 'UCINET', 'SciVal', 'Excel', 'R / Bibliometrix', 'Pajek', 'Altmetric',
+        'Python / Machine Learning & NLP', 'Network & Clustering', 'Open Science APIs & Graphs', 'Gender & Name Inference', 'R/Stata/SPSS (Stats)',
+        'OJS (Journal Management)', 'Ulrichsweb'
     ]
     sources_combined = [
         'Scopus', 'Web of Science', 'Plataforma Lattes', 'CNPq', 'Brapci', 'SciELO', 'OpenAlex',
-        'Microsoft Academic', 'PubMed', 'Google Scholar', 'Crossref', 'Dimensions', 'arXiv',
-        'Patent Databases', 'Open Science APIs & Graphs'
+        'Microsoft Academic', 'PubMed', 'Google Scholar', 'Crossref', 'Dimensions', 'Preprints (arXiv/bioRxiv)',
+        'Patent Databases', 'Open Science APIs & Graphs', 'Plataforma Sucupira', 'Altmetric', 'Wikipedia', 'ENANCIB', 'CAPES Portal', 'Oasisbr', 'The Lens'
     ]
     
     # 2. EBBC (focando no componente conectado principal de bibliometria prática)
-    tools_ebbc = ['VOSviewer', 'Python', 'ScriptLattes', 'IRaMuTeQ', 'UCINET', 'SciVal', 'Excel', 'Bibliometrix (R)', 'Pajek', 'Altmetric']
-    sources_ebbc = ['Scopus', 'Web of Science', 'Plataforma Lattes', 'CNPq', 'Brapci', 'SciELO', 'OpenAlex']
+    tools_ebbc = ['VOSviewer', 'Python / ScriptLattes', 'R / IRaMuTeQ', 'UCINET', 'SciVal', 'Excel', 'R / Bibliometrix', 'Pajek', 'Altmetric']
+    sources_ebbc = ['Scopus', 'Web of Science', 'Plataforma Lattes', 'CNPq', 'Brapci', 'SciELO', 'OpenAlex', 'Plataforma Sucupira', 'ENANCIB', 'CAPES Portal', 'Oasisbr']
     
     # 3. QSS (Focando na cientometria internacional avançada)
     tools_qss = [
         'Altmetric', 'Crossref', 'Dimensions', 'Excel', 'OpenAlex',
-        'Machine Learning & NLP', 'Open Science APIs & Graphs', 'Gender & Name Inference', 'Statistical Modeling',
-        'OJS (Journal Management)', 'Ulrichsweb', 'Python', 'R'
+        'Python / Machine Learning & NLP', 'Network & Clustering', 'Open Science APIs & Graphs', 'Gender & Name Inference', 'R/Stata/SPSS (Stats)',
+        'OJS (Journal Management)', 'Ulrichsweb'
     ]
     sources_qss = [
         'Crossref', 'Dimensions', 'Scopus', 'Web of Science', 'OpenAlex',
-        'Microsoft Academic', 'PubMed', 'Google Scholar', 'arXiv',
-        'Patent Databases', 'Open Science APIs & Graphs'
+        'Microsoft Academic', 'PubMed', 'Google Scholar', 'Preprints (arXiv/bioRxiv)',
+        'Patent Databases', 'Open Science APIs & Graphs', 'Altmetric', 'Wikipedia', 'The Lens'
     ]
     
     # --- Executar Análises ---
