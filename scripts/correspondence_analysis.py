@@ -38,14 +38,31 @@ def map_tool(clean_text):
         return 'Stata'
     if 'bibliometrix' in text or 'biblioshiny' in text:
         return 'Bibliometrix (R)'
-    if re.search(r'\bpython\b', text):
-        return 'Python'
-    if re.search(r'\br\b|r-based|r packages|r package|r programming', text):
-        return 'R'
     if 'excel' in text:
         return 'Excel'
     if 'altmetric' in text:
         return 'Altmetric'
+    
+    # NLP, Machine Learning e Algoritmos Avançados (Comuns no QSS)
+    if any(x in text for x in ['bert', 'gpt', 'openai', 'llm', 'machine learning', 'gradient boosting', 'random forest', 'naive bayes', 'neural network', 'classification']):
+        return 'Machine Learning & NLP'
+    if any(x in text for x in ['leiden algorithm', 'louvain algorithm', 'pagerank', 'k-core', 'overlapping clusters', 'community detection', 'network analysis', 'aoc']):
+        return 'Network & Clustering'
+    if any(x in text for x in ['unpaywall', 'openaire', 'opencitations', 'api', 'sparql', 'rest api']):
+        return 'Open Science APIs & Graphs'
+    if any(x in text for x in ['gender-api', 'genderize', 'namsor', 'ethnicity', 'gender inference']):
+        return 'Gender & Name Inference'
+    if any(x in text for x in ['regression', 'factor analysis', 'matching design', 'statistical modeling', 'statistical analysis', 'econometric', 'anova']):
+        return 'Statistical Modeling'
+    if 'open journal systems' in text or 'ojs' in text:
+        return 'OJS (Journal Management)'
+    if 'ulrichsweb' in text:
+        return 'Ulrichsweb'
+    
+    if re.search(r'\bpython\b', text):
+        return 'Python'
+    if re.search(r'\br\b|r-based|r packages|r package|r programming', text):
+        return 'R'
     if 'crossref' in text:
         return 'Crossref'
     if 'dimensions' in text:
@@ -56,7 +73,7 @@ def map_tool(clean_text):
 
 def map_source(clean_text):
     text = clean_text.lower()
-    if 'web of science' in text or 'wos' in text:
+    if 'web of science' in text or 'wos' in text or 'science citation index' in text:
         return 'Web of Science'
     if 'scopus' in text:
         return 'Scopus'
@@ -76,7 +93,7 @@ def map_source(clean_text):
         return 'SciELO'
     if 'google scholar' in text or 'google academico' in text or 'google acadêmico' in text:
         return 'Google Scholar'
-    if 'microsoft academic' in text or 'mag' in text:
+    if 'microsoft academic' in text or 'mag' in text or 'makg' in text:
         return 'Microsoft Academic'
     if 'cnpq' in text:
         return 'CNPq'
@@ -88,6 +105,10 @@ def map_source(clean_text):
         return 'arXiv'
     if 'twitter' in text:
         return 'Twitter'
+    if 'usproto' in text or 'uspto' in text or 'patent' in text or 'patents' in text:
+        return 'Patent Databases'
+    if any(x in text for x in ['openaire', 'opencitations', 'unpaywall']):
+        return 'Open Science APIs & Graphs'
     return None
 
 def clean_and_split(text):
@@ -137,7 +158,7 @@ def run_ca_and_plot(df_pairs, tools_to_keep, sources_to_keep, output_path, artif
     # Montar tabela de contingência
     contingency_table = pd.crosstab(df_pairs["Ferramenta"], df_pairs["Fonte"])
     
-    # Filtrar
+    # Filtrar pelas categorias de interesse
     valid_tools = [t for t in tools_to_keep if t in contingency_table.index]
     valid_sources = [s for s in sources_to_keep if s in contingency_table.columns]
     
@@ -254,16 +275,32 @@ def main():
     
     # Listas de categorias a incluir em cada tipo de gráfico
     # 1. COMBINADO
-    tools_combined = ['VOSviewer', 'Python', 'ScriptLattes', 'IRaMuTeQ', 'UCINET', 'SciVal', 'Excel', 'Bibliometrix (R)', 'Pajek', 'Altmetric']
-    sources_combined = ['Scopus', 'Web of Science', 'Plataforma Lattes', 'CNPq', 'Brapci', 'SciELO', 'OpenAlex']
+    tools_combined = [
+        'VOSviewer', 'Python', 'ScriptLattes', 'IRaMuTeQ', 'UCINET', 'SciVal', 'Excel', 'Bibliometrix (R)', 'Pajek', 'Altmetric',
+        'Machine Learning & NLP', 'Open Science APIs & Graphs', 'Gender & Name Inference', 'Statistical Modeling',
+        'OJS (Journal Management)', 'Ulrichsweb', 'R'
+    ]
+    sources_combined = [
+        'Scopus', 'Web of Science', 'Plataforma Lattes', 'CNPq', 'Brapci', 'SciELO', 'OpenAlex',
+        'Microsoft Academic', 'PubMed', 'Google Scholar', 'Crossref', 'Dimensions', 'arXiv',
+        'Patent Databases', 'Open Science APIs & Graphs'
+    ]
     
-    # 2. EBBC (focando no componente conectado principal para evitar distorção por outliers como Gephi/Twitter)
+    # 2. EBBC (focando no componente conectado principal de bibliometria prática)
     tools_ebbc = ['VOSviewer', 'Python', 'ScriptLattes', 'IRaMuTeQ', 'UCINET', 'SciVal', 'Excel', 'Bibliometrix (R)', 'Pajek', 'Altmetric']
     sources_ebbc = ['Scopus', 'Web of Science', 'Plataforma Lattes', 'CNPq', 'Brapci', 'SciELO', 'OpenAlex']
     
-    # 3. QSS (como tem poucos pares, mantemos todos os disponíveis que co-ocorrem pelo menos 1 vez)
-    tools_qss = ['Altmetric', 'Crossref', 'Dimensions', 'Excel', 'OpenAlex']
-    sources_qss = ['Crossref', 'Dimensions', 'Scopus', 'Web of Science']
+    # 3. QSS (Focando na cientometria internacional avançada)
+    tools_qss = [
+        'Altmetric', 'Crossref', 'Dimensions', 'Excel', 'OpenAlex',
+        'Machine Learning & NLP', 'Open Science APIs & Graphs', 'Gender & Name Inference', 'Statistical Modeling',
+        'OJS (Journal Management)', 'Ulrichsweb', 'Python', 'R'
+    ]
+    sources_qss = [
+        'Crossref', 'Dimensions', 'Scopus', 'Web of Science', 'OpenAlex',
+        'Microsoft Academic', 'PubMed', 'Google Scholar', 'arXiv',
+        'Patent Databases', 'Open Science APIs & Graphs'
+    ]
     
     # --- Executar Análises ---
     
@@ -273,7 +310,7 @@ def main():
                     os.path.join(ROOT_DIR, "ca_biplot_combined.png"), 
                     os.path.join(ART_DIR, "ca_biplot_combined.png"), 
                     "Combinado QSS + EBBC")
-    # Copiar para ca_biplot.png original
+    
     run_ca_and_plot(df_combined, tools_combined, sources_combined, 
                     os.path.join(ROOT_DIR, "ca_biplot.png"), 
                     os.path.join(ART_DIR, "ca_biplot.png"), 
