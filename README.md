@@ -39,6 +39,30 @@ O pipeline foi projetado para ser resiliente a falhas e eficiente no consumo de 
 
 ---
 
+## 📈 Análise de Correspondência (Correspondence Analysis - CA)
+
+Para compreender as associações metodológicas e mapear a estrutura intelectual da área, o pipeline inclui um script de **Análise de Correspondência (CA)**. Esse script correlaciona estatisticamente as **Ferramentas Utilizadas** com as **Fontes de Coleta de Dados** nos datasets do QSS e do EBBC.
+
+### Como Executar a Análise
+Para executar a análise de correspondência e regenerar os biplots, rode:
+```bash
+python scripts/correspondence_analysis.py
+```
+
+### Resultados Obtidos (Biplots)
+A análise filtra automaticamente tautologias de nicho isolado (como Altmetric) e ruídos de baixa frequência ($N < 2$) para evitar distorções de escala, garantindo uma inércia explicada acumulada de **67,85%** no QSS:
+
+1. **Mapa Combinado (QSS + EBBC)**: Revela três trajetórias metodológicas principais na cientometria:
+   * **Ecossistema Python Nacional**: ScriptLattes fortemente associado à Plataforma Lattes.
+   * **Ecossistema R Nacional**: IRaMuTeQ intimamente ligado a bases nacionais/locais (Brapci, CNPq).
+   * **Núcleo Cientométrico Global**: Onde ferramentas visuais (VOSviewer, Bibliometrix) e ecossistemas de desenvolvimento (Python/ML, R/Stats) orbitam em torno das grandes bases de dados globais.
+
+2. **Mapa Nacional (EBBC)**: Evidencia a forte preferência pela aplicação de softwares de prateleira (VOSviewer, Pajek, SciVal, Bibliometrix) aplicados a contextos de infraestrutura e dados brasileiros (Lattes, Brapci, Sucupira).
+
+3. **Mapa Internacional (QSS)**: Mostra um ecossistema dominado por ecossistemas programáveis e algoritmos. O **Python/ML** atua como hub central conectando modelos de processamento de linguagem natural (Transformers/LLMs) a repositórios de preprints, enquanto o ecossistema do **Dimensions**, **OpenAlex** e **Crossref** se estruturam de forma vertical e integrada às suas respectivas APIs.
+
+---
+
 ## 📂 Estrutura do Projeto
 
 Os arquivos foram organizados de forma modular e limpa:

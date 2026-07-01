@@ -39,6 +39,30 @@ The pipeline is designed to be resilient to failures and highly efficient:
 
 ---
 
+## 📈 Correspondence Analysis (CA)
+
+To understand methodological associations and map the intellectual structure of the field, the pipeline includes a **Correspondence Analysis (CA)** script. This script statistically correlates **Tools Used** with **Data Collection Sources** across both QSS and EBBC datasets.
+
+### How to Run the Analysis
+To run the correspondence analysis and regenerate the biplots, run:
+```bash
+python scripts/correspondence_analysis.py
+```
+
+### Obtained Results (Biplots)
+The analysis automatically filters out isolated niche tautologies (such as Altmetric) and low-frequency noise ($N < 2$) to avoid scale distortion, ensuring an accumulated explained inertia of **67.85%** for the QSS:
+
+1. **Combined Map (QSS + EBBC)**: Reveals three main methodological trajectories in scientometrics:
+   * **National Python Ecosystem**: ScriptLattes strongly associated with Plataforma Lattes.
+   * **National R Ecosystem**: IRaMuTeQ closely linked to national/local databases (Brapci, CNPq).
+   * **Global Scientometric Core**: Where visual tools (VOSviewer, Bibliometrix) and development ecosystems (Python/ML, R/Stats) orbit around major global databases.
+
+2. **National Map (EBBC)**: Highlights a strong preference for ready-to-use software applications (VOSviewer, Pajek, SciVal, Bibliometrix) applied within Brazilian research and training infrastructures (Lattes, Brapci, Sucupira).
+
+3. **International Map (QSS)**: Shows a landscape dominated by programmable environments and algorithms. **Python/ML** acts as a central hub connecting NLP models (Transformers/LLMs) to preprint repositories, while the ecosystems of **Dimensions**, **OpenAlex**, and **Crossref** structure themselves vertically and integrate directly with their respective APIs.
+
+---
+
 ## 📂 Project Structure
 
 The files are organized in a modular and clean structure:
