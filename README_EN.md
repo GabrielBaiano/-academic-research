@@ -20,12 +20,14 @@ graph TD
     A[OpenAlex API / OJS Journal Website] -->|1. Collection and Scraping| B(Raw metadata JSON files)
     B -->|2. Identification of Incompletes| C{Check if all N/A & unprocessed}
     C -->|Yes: Curation Needed| D[Abstract Searcher]
-    C -->|No: Already Curated/Complete| H[Excel Consolidator]
+    C -->|No: Already Curated/Complete| G[Refined JSON files in datasets/]
     D -->|Search abstracts by DOI or Title| E[Reconstituted Abstracts / Local caching]
     E -->|3. Curation with Full Context| F[Gemini Flash Lite API]
-    F -->|4. Save Classifications to JSONs| G[Refined JSON files with _refined tag]
-    G --> H
-    H -->|5. Executive Formatting and Zebra Colors| I[coleta de dados gabriel.xlsx]
+    F -->|4. Save Classifications to JSONs| G
+    G -->|5. Consolidation and Formatting| H[Excel Consolidator]
+    G -->|6. Multivariate Analysis| J[Correspondence Analysis - CA Script]
+    H -->|Executive Zebra Spreadsheet| I[coleta de dados gabriel.xlsx]
+    J -->|7. Visual Mapping| K[QSS / EBBC / Combined Association Biplots .png]
 ```
 
 ---

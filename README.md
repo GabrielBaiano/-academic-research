@@ -19,13 +19,15 @@ O diagrama abaixo ilustra o fluxo lógico de execução do projeto, desde a cole
 graph TD
     A[OpenAlex API / OJS Journal Website] -->|1. Coleta e Raspagem| B(Arquivos JSON de metadados brutos)
     B -->|2. Identificação de Incompletos| C{Verifica Todos N/A & não processados}
-    C -->|Sim: Precisa de Curação| D[Buscador de Resumos / Abstracts]
-    C -->|Não: Já Curado/Completo| H[Consolidador de Excel]
+    C -->|Sim: Precisa de Curadoria| D[Buscador de Resumos / Abstracts]
+    C -->|Não: Já Curado/Completo| G[Arquivos JSON Refinados em datasets/]
     D -->|Busca Resumos pelo DOI ou Título| E[Abstracts Reconstituídos / Caching local]
     E -->|3. Curadoria com Contexto Completo| F[Gemini Flash Lite API]
-    F -->|4. Grava Classificações nos JSONs| G[Arquivos JSON Refinados com tag _refined]
-    G --> H
-    H -->|5. Formatação Executiva e Cores Zebra| I[coleta de dados gabriel.xlsx]
+    F -->|4. Grava Classificações nos JSONs| G
+    G -->|5. Consolidação e Formatação| H[Consolidador de Excel]
+    G -->|6. Análise Multivariada| J[Script de Análise de Correspondência - CA]
+    H -->|Planilha Executiva Zebra| I[coleta de dados gabriel.xlsx]
+    J -->|7. Mapeamento Visual| K[Biplots de Associação QSS / EBBC / Combinado .png]
 ```
 
 ---
