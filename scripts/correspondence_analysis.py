@@ -172,11 +172,22 @@ def run_ca_and_plot(df_pairs, tools_to_keep, sources_to_keep, output_path, artif
     # Montar tabela de contingência
     contingency_table = pd.crosstab(df_pairs["Ferramenta"], df_pairs["Fonte"])
     
-    # Filtrar pelas categorias de interesse
+    # Filtrar pelas categorias de interesse iniciais
     valid_tools = [t for t in tools_to_keep if t in contingency_table.index]
     valid_sources = [s for s in sources_to_keep if s in contingency_table.columns]
-    
     contingency_table = contingency_table.loc[valid_tools, valid_sources]
+    
+    # Remover Altmetric (tautologia de nicho isolado que distorce a escala)
+    if 'Altmetric' in contingency_table.index:
+        contingency_table = contingency_table.drop(index='Altmetric')
+    if 'Altmetric' in contingency_table.columns:
+        contingency_table = contingency_table.drop(columns='Altmetric')
+        
+    # Filtrar por frequência mínima (evitar outliers de coocorrência única que distorcem o plot)
+    min_freq = 2
+    row_sums = contingency_table.sum(axis=1)
+    col_sums = contingency_table.sum(axis=0)
+    contingency_table = contingency_table.loc[row_sums >= min_freq, col_sums >= min_freq]
     
     # Se a tabela for muito pequena ou vazia, avisar e pular
     if contingency_table.empty or contingency_table.shape[0] < 2 or contingency_table.shape[1] < 2:
