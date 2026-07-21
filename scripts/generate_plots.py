@@ -62,14 +62,6 @@ def generate_table_metrics():
             else:
                 cell.set_facecolor('#FFFFFF')
 
-    plt.title(
-        "MÉTRICAS GERAIS",
-        fontsize=13,
-        weight='bold',
-        color='#1E3A8A',
-        pad=20,
-        loc='left'
-    )
     plt.tight_layout()
     plt.savefig(output_path, bbox_inches='tight', transparent=True)
     plt.close()
@@ -132,14 +124,6 @@ def generate_table_subgroups():
             else:
                 cell.set_facecolor('#FFFFFF')
 
-    plt.title(
-        "DISTRIBUIÇÃO DE SUBGRUPOS METODOLÓGICOS (Apenas trabalhos que usaram IA)",
-        fontsize=13,
-        weight='bold',
-        color='#1E3A8A',
-        pad=20,
-        loc='left'
-    )
     plt.tight_layout()
     plt.savefig(output_path, bbox_inches='tight', transparent=True)
     plt.close()
