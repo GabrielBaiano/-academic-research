@@ -62,8 +62,14 @@ def generate_table_metrics():
             else:
                 cell.set_facecolor('#FFFFFF')
 
-    plt.tight_layout()
-    plt.savefig(output_path, bbox_inches='tight', transparent=True)
+    # Draw canvas to calculate positions
+    fig.canvas.draw()
+    # Get bounding box of the table grid in pixels and convert to inches
+    bbox = table.get_window_extent(fig.canvas.get_renderer())
+    bbox_inches = bbox.transformed(fig.dpi_scale_trans.inverted())
+    
+    # Save cropped exactly to the table boundary with a tiny padding
+    plt.savefig(output_path, bbox_inches=bbox_inches, transparent=True, pad_inches=0.01)
     plt.close()
     print(f"Table 1 saved to: {output_path}")
 
@@ -80,11 +86,11 @@ def generate_table_subgroups():
         ['Outros', '0', '0.0%', '0', '0.0%', '0']
     ]
 
-    fig, ax = plt.subplots(figsize=(11, 5.2), dpi=300)
+    fig, ax = plt.subplots(figsize=(13.5, 4.5), dpi=300)
     ax.axis('off')
     ax.axis('tight')
 
-    col_widths = [0.42, 0.11, 0.11, 0.11, 0.11, 0.14]
+    col_widths = [0.38, 0.11, 0.11, 0.11, 0.11, 0.18]
     table = ax.table(
         cellText=data,
         colLabels=columns,
@@ -124,8 +130,14 @@ def generate_table_subgroups():
             else:
                 cell.set_facecolor('#FFFFFF')
 
-    plt.tight_layout()
-    plt.savefig(output_path, bbox_inches='tight', transparent=True)
+    # Draw canvas to calculate positions
+    fig.canvas.draw()
+    # Get bounding box of the table grid in pixels and convert to inches
+    bbox = table.get_window_extent(fig.canvas.get_renderer())
+    bbox_inches = bbox.transformed(fig.dpi_scale_trans.inverted())
+    
+    # Save cropped exactly to the table boundary with a tiny padding
+    plt.savefig(output_path, bbox_inches=bbox_inches, transparent=True, pad_inches=0.01)
     plt.close()
     print(f"Table 2 saved to: {output_path}")
 
