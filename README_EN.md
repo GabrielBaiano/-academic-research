@@ -69,15 +69,15 @@ The analysis automatically filters out isolated niche tautologies (such as Altme
    * **National R Ecosystem**: IRaMuTeQ closely linked to national/local databases (Brapci, CNPq).
    * **Global Scientometric Core**: Where visual tools (VOSviewer, Bibliometrix) and development ecosystems (Python/ML, R/Stats) orbit around major global databases.
 
-   ![Combined Map](ca_biplot_combined.png)
+    ![Combined Map](graficos/ca_biplot_combined.png)
 
 2. **National Map (EBBC)**: Highlights a strong preference for ready-to-use software applications (VOSviewer, Pajek, SciVal, Bibliometrix) applied within Brazilian research and training infrastructures (Lattes, Brapci, Sucupira).
 
-   ![National Map (EBBC)](ca_biplot_ebbc.png)
+   ![National Map (EBBC)](graficos/ca_biplot_ebbc.png)
 
 3. **International Map (QSS)**: Shows a landscape dominated by programmable environments and algorithms. **Python/ML** acts as a central hub connecting NLP models (Transformers/LLMs) to preprint repositories, while the ecosystems of **Dimensions**, **OpenAlex**, and **Crossref** structure themselves vertically and integrate directly with their respective APIs.
 
-   ![International Map (QSS)](ca_biplot_qss.png)
+   ![International Map (QSS)](graficos/ca_biplot_qss.png)
 
 ---
 
@@ -87,11 +87,21 @@ The files are organized in a modular and clean structure:
 
 ```text
 ├── coleta de dados gabriel.xlsx      # Consolidated final spreadsheet with all styled tabs
+├── analise_ia_cienciometria.xlsx     # New consolidated AI analysis spreadsheet
 ├── executar_curadoria.py             # Execution shortcut script at the root
 ├── README.md                         # Project documentation (Portuguese)
 ├── README_EN.md                      # Project documentation (English)
+├── documentos/                       # Folder containing documents and report texts
+│   ├── METODOLOGIA.md                # General methodological description
+│   ├── RESULTADOS_DISCUSSAO.md       # Detailed results and discussions
+│   └── relatorio_comparativo_ia.md   # Comparative report on the AI thesis (QSS vs. EBBC)
+├── graficos/                         # Folder containing biplots and statistical figures
+│   ├── ca_biplot_combined.png
+│   ├── ca_biplot_ebbc.png
+│   ├── ca_biplot_qss.png
+│   └── ...                           # Other project result figures
 ├── datasets/                         # Folder containing JSON datasets
-│   ├── cache/                        # Local caches for EBBC abstracts (prevents overloading OJS)
+│   ├── cache/                        # Local caches for abstracts (prevents overloading APIs/OJS)
 │   │   ├── ebbc_2020_abstracts_cache.json
 │   │   ├── ebbc_2022_abstracts_cache.json
 │   │   └── ebbc_2024_abstracts_cache.json
@@ -106,6 +116,7 @@ The files are organized in a modular and clean structure:
 │   └── qss_volume_6_data.json
 └── scripts/                          # Folder containing the pipeline source code
     ├── refine_with_abstracts.py      # Main script with the interactive menu and AI integration
+    ├── analyze_ai_integration.py     # AI analysis and comparison pipeline script
     ├── generate_styled_xlsx_all.py   # Final spreadsheet generator (all tabs)
     ├── generate_styled_xlsx.py       # Spreadsheet generator (QSS Volumes 5 and 6)
     ├── refine_dataset.py             # Specific manual curation for Volume 6
@@ -140,22 +151,25 @@ Option | Dataset              | Total  | All N/A (Incomplete)
 ------------------------------------------------------------
  1     | QSS Vol 1 (2020)     | 91     | 0                     
  2     | QSS Vol 2 (2021)     | 74     | 0                     
- 3     | QSS Vol 3 (2022)     | 59     | 0                     
+ 3     | QSS Vol 3 (2022)     | 58     | 0                     
  4     | QSS Vol 4 (2023)     | 52     | 0                     
  5     | EBBC 2020            | 90     | 0                     
 ...
 ------------------------------------------------------------
- 8     | REFINE ALL datasets above consecutively
- 9     | REBUILD Excel Spreadsheet (coleta de dados gabriel.xlsx)
- 10    | EXIT
+ 10    | REFINE ALL datasets above consecutively
+ 11    | REBUILD Excel Spreadsheet (coleta de dados gabriel.xlsx)
+ 12    | RUN COMPARATIVE AI ANALYSIS (QSS vs. EBBC)
+ 13    | EXIT
 ============================================================
-Select an option (1-10):
+Select an option (1-13):
 ```
 
 ### Explanation of Options:
-- **Options 1 to 7**: Run the AI curation for a specific volume/year.
-- **Option 8**: Runs curation across all datasets that still have unrefined records (`Incomplete`).
-- **Option 9**: Reads data from the `datasets/` directory and rebuilds the consolidated Excel spreadsheet `coleta de dados gabriel.xlsx` at the root of the project.
+- **Options 1 to 9**: Run the AI curation for a specific volume/year.
+- **Option 10**: Runs curation across all datasets that still have unrefined records (`Incomplete`).
+- **Option 11**: Reads data from the `datasets/` directory and rebuilds the consolidated Excel spreadsheet `coleta de dados gabriel.xlsx` at the root of the project.
+- **Option 12**: Runs the new AI integration comparative analysis pipeline, generating the spreadsheet `analise_ia_cienciometria.xlsx` and the report `documentos/relatorio_comparativo_ia.md`.
+- **Option 13**: Closes the menu.tion 9**: Reads data from the `datasets/` directory and rebuilds the consolidated Excel spreadsheet `coleta de dados gabriel.xlsx` at the root of the project.
 - **Option 10**: Closes the menu.
 
 ---

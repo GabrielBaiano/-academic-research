@@ -521,11 +521,13 @@ def display_menu():
     num_targets = len(targets)
     opt_refine_all = str(num_targets + 1)
     opt_rebuild_excel = str(num_targets + 2)
-    opt_exit = str(num_targets + 3)
+    opt_analyze_ai = str(num_targets + 3)
+    opt_exit = str(num_targets + 4)
     
     print("-" * 70)
     print(f" {opt_refine_all:<4} | REFINE TODOS os datasets acima consecutivamente")
     print(f" {opt_rebuild_excel:<4} | RECONSTRUIR Planilha Excel (coleta de dados gabriel.xlsx)")
+    print(f" {opt_analyze_ai:<4} | EXECUTAR ANÁLISE COMPARATIVA DE IA (QSS vs. EBBC)")
     print(f" {opt_exit:<4} | SAIR")
     print("=" * 70)
     
@@ -535,6 +537,12 @@ def display_menu():
             return False
         elif opt == opt_rebuild_excel:
             rebuild_excel()
+        elif opt == opt_analyze_ai:
+            try:
+                import analyze_ai_integration
+                analyze_ai_integration.main()
+            except Exception as ae:
+                print(f"[Erro] Falha ao rodar análise comparativa de IA: {ae}")
         elif opt == opt_refine_all:
             # Validar chave antes de rodar
             if not validate_and_setup_api_key():

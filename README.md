@@ -69,15 +69,15 @@ A análise filtra automaticamente tautologias de nicho isolado (como Altmetric) 
    * **Ecossistema R Nacional**: IRaMuTeQ intimamente ligado a bases nacionais/locais (Brapci, CNPq).
    * **Núcleo Cientométrico Global**: Onde ferramentas visuais (VOSviewer, Bibliometrix) e ecossistemas de desenvolvimento (Python/ML, R/Stats) orbitam em torno das grandes bases de dados globais.
 
-   ![Mapa Combinado](ca_biplot_combined.png)
+   ![Mapa Combinado](graficos/ca_biplot_combined.png)
 
 2. **Mapa Nacional (EBBC)**: Evidencia a forte preferência pela aplicação de softwares de prateleira (VOSviewer, Pajek, SciVal, Bibliometrix) aplicados a contextos de infraestrutura e dados brasileiros (Lattes, Brapci, Sucupira).
 
-   ![Mapa Nacional (EBBC)](ca_biplot_ebbc.png)
+   ![Mapa Nacional (EBBC)](graficos/ca_biplot_ebbc.png)
 
 3. **Mapa Internacional (QSS)**: Mostra um ecossistema dominado por ecossistemas programáveis e algoritmos. O **Python/ML** atua como hub central conectando modelos de processamento de linguagem natural (Transformers/LLMs) a repositórios de preprints, enquanto o ecossistema do **Dimensions**, **OpenAlex** e **Crossref** se estruturam de forma vertical e integrada às suas respectivas APIs.
 
-   ![Mapa Internacional (QSS)](ca_biplot_qss.png)
+   ![Mapa Internacional (QSS)](graficos/ca_biplot_qss.png)
 
 ---
 
@@ -87,10 +87,21 @@ Os arquivos foram organizados de forma modular e limpa:
 
 ```text
 ├── coleta de dados gabriel.xlsx      # Planilha final consolidada com todas as abas estilizadas
+├── analise_ia_cienciometria.xlsx     # Nova planilha de análise de IA consolidada
 ├── executar_curadoria.py             # Script atalho de execução na raiz
-├── README.md                         # Documentação do projeto
+├── README.md                         # Documentação do projeto (Português)
+├── README_EN.md                      # Documentação do projeto (Inglês)
+├── documentos/                       # Pasta contendo os relatórios e textos de fundamentação
+│   ├── METODOLOGIA.md                # Descrição metodológica geral da pesquisa
+│   ├── RESULTADOS_DISCUSSAO.md       # Resultados e discussões detalhadas
+│   └── relatorio_comparativo_ia.md   # Relatório comparativo sobre a tese de IA (QSS vs. EBBC)
+├── graficos/                         # Pasta contendo os biplots e figuras estatísticas
+│   ├── ca_biplot_combined.png
+│   ├── ca_biplot_ebbc.png
+│   ├── ca_biplot_qss.png
+│   └── ...                           # Outras figuras de resultados do projeto
 ├── datasets/                         # Pasta contendo os conjuntos de dados em JSON
-│   ├── cache/                        # Caches locais de resumos do EBBC (evita sobrecarga no OJS)
+│   ├── cache/                        # Caches locais de resumos (evita sobrecarga de APIs/OJS)
 │   │   ├── ebbc_2020_abstracts_cache.json
 │   │   ├── ebbc_2022_abstracts_cache.json
 │   │   └── ebbc_2024_abstracts_cache.json
@@ -105,6 +116,7 @@ Os arquivos foram organizados de forma modular e limpa:
 │   └── qss_volume_6_data.json
 └── scripts/                          # Pasta contendo os códigos-fontes do pipeline
     ├── refine_with_abstracts.py      # Script principal do menu interativo e integração IA
+    ├── analyze_ai_integration.py     # Script da pipeline de análise e comparação de IA
     ├── generate_styled_xlsx_all.py   # Gerador da planilha final (todas as abas)
     ├── generate_styled_xlsx.py       # Gerador da planilha (Volumes 5 e 6 do QSS)
     ├── refine_dataset.py             # Curadoria manual específica do Volume 6
@@ -139,23 +151,25 @@ Opção  | Dataset              | Total  | Todos N/A (Incompletos)
 ------------------------------------------------------------
  1     | QSS Vol 1 (2020)     | 91     | 0                     
  2     | QSS Vol 2 (2021)     | 74     | 0                     
- 3     | QSS Vol 3 (2022)     | 59     | 0                     
+ 3     | QSS Vol 3 (2022)     | 58     | 0                     
  4     | QSS Vol 4 (2023)     | 52     | 0                     
  5     | EBBC 2020            | 90     | 0                     
 ...
 ------------------------------------------------------------
- 8    | REFINE TODOS os datasets acima consecutivamente
- 9    | RECONSTRUIR Planilha Excel (coleta de dados gabriel.xlsx)
- 10   | SAIR
+ 10    | REFINE TODOS os datasets acima consecutivamente
+ 11    | RECONSTRUIR Planilha Excel (coleta de dados gabriel.xlsx)
+ 12    | EXECUTAR ANÁLISE COMPARATIVA DE IA (QSS vs. EBBC)
+ 13    | SAIR
 ============================================================
-Selecione uma opção (1-10):
+Selecione uma opção (1-13):
 ```
 
 ### Explicação das Opções:
-- **Opções de 1 a 7**: Rodam a curadoria de IA em um volume/ano específico.
-- **Opção 8**: Executa a curadoria em todos os conjuntos de dados que ainda possuem registros não refinados (`Incompletos`).
-- **Opção 9**: Apenas lê os dados do diretório `datasets/` e reconstrói a planilha Excel consolidada `coleta de dados gabriel.xlsx` na raiz do projeto.
-- **Opção 10**: Fecha o menu.
+- **Opções de 1 a 9**: Rodam a curadoria de IA em um volume/ano específico.
+- **Opção 10**: Executa a curadoria em todos os conjuntos de dados que ainda possuem registros não refinados (`Incompletos`).
+- **Opção 11**: Apenas lê os dados do diretório `datasets/` e reconstrói a planilha Excel consolidada `coleta de dados gabriel.xlsx` na raiz do projeto.
+- **Opção 12**: Executa a nova pipeline de classificação comparativa de IA (QSS vs. EBBC), gerando a planilha `analise_ia_cienciometria.xlsx` e o relatório `documentos/relatorio_comparativo_ia.md`.
+- **Opção 13**: Fecha o menu.
 
 ---
 
